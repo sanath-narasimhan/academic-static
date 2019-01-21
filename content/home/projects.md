@@ -16,7 +16,7 @@ weight = 50
 
 icon = "project-diagram"
 icon_pack = "fas"
-link ="academic-static/content/project/EDS.pdf"
+link ="content/project/EDS.pdf"
 
 # View.
 # Customize how projects are displayed.
