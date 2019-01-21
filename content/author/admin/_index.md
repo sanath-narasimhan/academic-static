@@ -61,7 +61,7 @@ interests = [
   link = "mailto:sanath.narasimhan@gmail.com"  # For a direct email link, use "mailto:test@example.org".
 
 [[social]]
-  icon = "likedin"
+  icon = "linkedin"
   icon_pack = "fab"
   link = "https://www.linkedin.com/in/sanath-narasimhan-016b2a135"
   
