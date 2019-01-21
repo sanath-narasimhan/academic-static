@@ -73,7 +73,7 @@ interests = [
  [[social]]
   icon = "phone"
   icon_pack = "fas"
-  link = "+1 682 228 9743"
+  name = "+16822289743"
 
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
