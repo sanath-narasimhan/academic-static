@@ -1,28 +1,29 @@
 +++
 # Display name
-name = "Nelson Bighetti"
+name = "Sanath Narasimhan"
 
 # Is this the primary user of the site?
 superuser = true
 
 # Role/position
-role = "Professor of Artificial Intelligence"
+role = "Student of Artificial Intelligence"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-organizations = [ { name = "Stanford University", url = "" } ]
+organizations = [ { name = " University of Texas at Arlington ", url = "" } ]
 
 # Short bio (displayed in user profile at end of posts)
-bio = "My research interests include distributed robotics, mobile computing and programmable matter."
+bio = "Interested in the field of Data Science and Machine Learning, keen on learning about Artificial General Intelligence and Human Computer interaction."
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email = ""
+email = "sanath.narasimhan@gmail.com"
 
 # List (academic) interests or hobbies
 interests = [
-  "Artificial Intelligence",
-  "Computational Linguistics",
-  "Information Retrieval"
+  "Artificial General Intelligence",
+  "Linguistic Analysis",
+  "Information Retrieval",
+  "Image processing"
 ]
 
 # List qualifications (such as academic degrees)
