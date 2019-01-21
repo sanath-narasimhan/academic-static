@@ -13,11 +13,10 @@ weight = 50
 # Content.
 # Display content from the following folder.
 # For example, `folder = "project"` displays content from `content/project/`.
-[[final]]
-  
-  icon = "project-diagram"
-  icon_pack = "fas"
-  link ="academic-static/content/project/EDS.pdf"
+
+icon = "project-diagram"
+icon_pack = "fas"
+link ="academic-static/content/project/EDS.pdf"
 
 # View.
 # Customize how projects are displayed.
