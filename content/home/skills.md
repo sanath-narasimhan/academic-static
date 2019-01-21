@@ -37,6 +37,6 @@ weight = 7
   icon = "fa-python"
   icon_pack = "fab"
   name = "Python"
-  description = "40%"
+  description = "42%"
 
 +++
