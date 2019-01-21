@@ -13,9 +13,10 @@ weight = 50
 # Content.
 # Display content from the following folder.
 # For example, `folder = "project"` displays content from `content/project/`.
-
-name = "Final Year B.Tech Project"
-url = "EDS.pdf"
+[[project]]
+  name = "Final Year B.Tech Project"
+  url = "EDS.pdf"
+  weight = 51
 
 # View.
 # Customize how projects are displayed.
