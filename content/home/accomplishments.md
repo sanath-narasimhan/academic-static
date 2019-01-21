@@ -29,7 +29,7 @@ date_format = "January 2006"
 
 [[item]]
   title = "The Python Mega Course"
-  organization = "edX"
+  organization = "udemy"
   certificate_url = "https://www.udemy.com"
   date_start = "2017-09-15"
   date_end = ""
