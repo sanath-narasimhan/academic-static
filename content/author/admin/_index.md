@@ -71,8 +71,7 @@ interests = [
   link = "https://github.com/sanath-narasimhan"
   
  [[social]]
-  icon = "phone"
-  icon_pack = "fas"
+  
   name = "+16822289743"
 
 # Link to a PDF of your resume/CV from the About widget.
