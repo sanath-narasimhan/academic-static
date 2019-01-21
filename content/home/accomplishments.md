@@ -11,7 +11,7 @@ weight = 15
 
 # Date format
 #   Refer to https://sourcethemes.com/academic/docs/customization/#date-format
-date_format = "Jan 2006"
+date_format = "January 2006"
 
 # Accomplishments.
 #   Add/remove as many `[[item]]` blocks below as you like.
@@ -23,7 +23,7 @@ date_format = "Jan 2006"
   title = " Introduction to Machine Learning"
   organization = "Coursera"
   certificate_url = "https://www.coursera.org"
-  date_start = "Oct 2017"
+  date_start = "October 2017"
   date_end = ""
   description = ""
 
@@ -31,7 +31,7 @@ date_format = "Jan 2006"
   title = "The Python Mega Course"
   organization = "udemy"
   certificate_url = "https://www.udemy.com"
-  date_start = "Sep 2017"
+  date_start = "September 2017"
   date_end = ""
   description = ""
   
@@ -39,8 +39,8 @@ date_format = "Jan 2006"
   title = "Data Science Certification Training - R Programming"
   organization = "DataCamp"
   certificate_url = "https://lms.simplilearn.com"
-  date_start = "Sep 2017"
-  date_end = "Apr 2018"
+  date_start = "Sepeptember 2017"
+  date_end = "April 2018"
   description = ""
 
 +++
