@@ -37,7 +37,7 @@ date_format = "January 2006"
   
 [[item]]
   title = "Data Science Certification Training - R Programming"
-  organization = "DataCamp"
+  organization = "SimpliLearn"
   certificate_url = "https://lms.simplilearn.com"
   date_start = "2017-09-05"
   date_end = "2018-04-21"
