@@ -13,6 +13,7 @@ weight = 50
 # Content.
 # Display content from the following folder.
 # For example, `folder = "project"` displays content from `content/project/`.
+folder = "project"
 [[project]]
   name = "Final Year B.Tech Project"
   url = "EDS.pdf"
