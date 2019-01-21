@@ -42,4 +42,10 @@ date_format = "January 2006"
   date_start = "2017-09-05"
   date_end = "2018-04-21"
   description = ""
+  
+[[item]]
+  title = "Secured all India rank 11 in the IEO 2016"
+  organization = "Indian Engineering Olympiad"
+  date_start = "2016-02-21"
+  
 +++
