@@ -75,4 +75,4 @@ interests = [
 
 +++
 
-A student of Master of Computer Science at University of Texas at Arlington. Interested in Intelligence systems and image processing majors. Interned as Junior Data Scientist at Enquero Global LLP. 
+Studying Master of Computer Science at University of Texas at Arlington. Interested in Intelligence systems and Image processing majors. Former Intern at Enquero Global LLP as Junior Data Scientist. 
