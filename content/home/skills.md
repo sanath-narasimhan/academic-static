@@ -20,7 +20,12 @@ weight = 7
 # * fas - Font Awesome standard icons (see https://fontawesome.com/icons)
 # * fab - Font Awesome brand icons (see https://fontawesome.com/icons)
 # * ai - academic icons (see https://jpswalsh.github.io/academicons/)
-
+[[feature]]
+  icon = "server"
+  icon_pack = "fas"
+  name = "Data Analytics"
+  description = "8%"  
+  
 [[feature]]
   icon = "r-project"
   icon_pack = "fab"
