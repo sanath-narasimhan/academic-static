@@ -29,7 +29,7 @@ date_format = "January 2006"
   Responsibilities include:
   
   * Analysing dataset of client names for an Elastic search engine. The dataset is subjected to unsupervised learning with a hybrid           clustering with 57% accuracy.
-  * Modelling by Principle Compound Analysis to define churn causation
+  * Modelling by Principle Component Analysis to define churn causation
   * Monitoring Data quality related dashboards from a QlikView server instance
   """
 
