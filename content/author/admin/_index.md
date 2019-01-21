@@ -25,7 +25,7 @@ interests = [
   "Information Retrieval",
   "Image processing"
 ]
-
+contact = "+1 682 228 9743"
 # List qualifications (such as academic degrees)
 [[education.courses]]
   course = "Bachelor of Engineering in Information Science"
@@ -70,10 +70,7 @@ interests = [
   icon_pack = "fab"
   link = "https://github.com/sanath-narasimhan"
   
- [[social]]
-  
-  name = "+16822289743"
-  weight = 1
+ 
 
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
