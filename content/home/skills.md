@@ -44,4 +44,9 @@ weight = 7
   name = "Python"
   description = "42%"
 
+[[feature]]
+  icon = "palette"
+  icon_pack = "fas"
+  name = "Art & Design"
+  description = "100%"
 +++
