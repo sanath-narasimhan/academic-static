@@ -14,10 +14,8 @@ weight = 50
 # Display content from the following folder.
 # For example, `folder = "project"` displays content from `content/project/`.
 
-[[projects]]
-  icon = "project-diagram"
-  icon_pack = "fas"
-  link ="EDS.pdf"
+name = "Final Year B.Tech Project"
+url = "EDS.pdf"
 
 # View.
 # Customize how projects are displayed.
