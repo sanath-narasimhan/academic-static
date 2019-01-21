@@ -1,7 +1,7 @@
 +++
 # Contact widget.
 widget = "contact"
-active = false
+active = true
 date = 2016-04-20T00:00:00
 
 title = "Contact"
@@ -11,7 +11,7 @@ subtitle = ""
 weight = 70
 
 # Automatically link email and phone?
-autolink = false
+autolink = true
 
 # Email form provider
 #   0: Disable email form
