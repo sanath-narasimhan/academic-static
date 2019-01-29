@@ -6,7 +6,7 @@ title = "Pocket otaku"
 
 ### **I : heart : Anime !!**
 
-![All at once](./../../img/featured.jpg)
+![All at once](img/featured.jpg)
 
 
 If you remember your childhood filled with awesome action-packed and adventures evenings, sitting in front of the television
