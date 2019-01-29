@@ -4,9 +4,10 @@ title = "Pocket otaku"
 
 +++
 
-### **I : love : Anime !!**
+### **I : heart : Anime !!**
 
-{{< figure src="featured.jpg" title="Anime" >}} 
+![All at once](/img/featured.jpg)
+
 
 If you remember your childhood filled with awesome action-packed and adventures evenings, sitting in front of the television
 waiting for your favorite Anime to air, this app will capture your **attention!** Pocket otaku is an android app that consist of 
