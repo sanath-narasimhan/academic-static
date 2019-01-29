@@ -5,7 +5,7 @@ title = "Pocket otaku"
 [header]
   image = "featured.jpg"
   
-  **I :love: Anime !!**
+ ### **I :love: Anime !!**
 
  
 +++
