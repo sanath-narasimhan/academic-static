@@ -4,7 +4,7 @@ title = "Pocket otaku"
 
 +++
 
-> **I : heart : Anime !!**
+> **I  :heart: Anime !!**
 
 ![All at once](/img/featured.jpg)
 
@@ -27,3 +27,5 @@ so you can be assured of the best suggestions as this represents a wide demograp
 You can search based on the genre, characters, year aired, production company and many more features. The database
 consists of information like title, title synonyms, genre, studio, licensor, producer, duration, rating, score, airing date,
 episodes, source (manga, light novel etc.) and many other important data that gives you a complete overview.  
+
+![APP images preview](/img/img1)
