@@ -1,11 +1,11 @@
 +++
-[header]
-  image = "featured.jpg"
   
 title = "Pocket otaku"
 
-
- ## **I :love: Anime !!**
+[header]
+  image = "featured.jpg"
+  
+  **I :love: Anime !!**
 
  
 +++
