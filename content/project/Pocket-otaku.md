@@ -2,13 +2,12 @@
   
 title = "Pocket otaku"
 
-[header]
-  image = "featured.jpg"
-  
- ### **I :love: Anime !!**
-
- 
 +++
+
+### **I :love: Anime !!**
+
+{{< figure src="featured.jpg" >}} 
+
 If you remember your childhood filled with awesome action-packed and adventures evenings, sitting in front of the television
 waiting for your favorite Anime to air, this app will capture your **attention!** Pocket otaku is an android app that consist of 
 your favorite anime and manga enlisted along with so many more that you couldn’t imagine. Gone are those days when you pay for 
