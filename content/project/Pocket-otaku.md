@@ -4,7 +4,7 @@ title = "Pocket otaku"
 
 +++
 
-###> **I : heart : Anime !!**
+> **I : heart : Anime !!**
 
 ![All at once](/img/featured.jpg)
 
