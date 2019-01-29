@@ -6,6 +6,8 @@ title = "*Pocket otaku*"
   focal_point = "Smart"
   preview_only = false
 
+ 
++++
 If you remember your childhood filled with awesome action-packed and adventures evenings, sitting in front of the television
 waiting for your favorite Anime to air, this app will capture your attention! Pocket otaku is an android app that consist of 
 your favorite anime and manga enlisted along with so many more that you couldn’t imagine. Gone are those days when you pay for 
@@ -22,5 +24,4 @@ The recommendation system is built on top of 20 726 794 otaku ratings with their
 so you can be assured of the best suggestions as this represents a wide demography of the online otaku community.
 You can search based on the genre, characters, year aired, production company and many more features. The database
 consists of information like title, title synonyms, genre, studio, licensor, producer, duration, rating, score, airing date,
-episodes, source (manga, light novel etc.) and many other important data that gives you a complete overview.   
-+++
+episodes, source (manga, light novel etc.) and many other important data that gives you a complete overview.  
