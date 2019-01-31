@@ -13,4 +13,4 @@ If you remember your second guessing the effects of your medication you may not 
 
 The system will be built on the dataset available here: https://www.kaggle.com/jessicali9530/kuc-hackathon-winter-2018/home which has **_patient reviews_** on specific drugs along with related conditions and a **_10 star_** patient rating reflecting overall patient satisfaction .
 
-![APP images preview](/img/img1)
+![APP images preview](/img/img1.jpg)
