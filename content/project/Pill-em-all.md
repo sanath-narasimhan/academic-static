@@ -2,6 +2,8 @@
   
 title = "Pill em all"
 
+{{< gallery album="Term project mockup" >}}
+
 +++
 
 > **Feel Better  :heart:**
@@ -32,4 +34,4 @@ The Dataset consist of 7 fields in total.
 
 **_Get recommendations for best medication for a condition or a review that is most helpful for a medicine._**
 
-{{< gallery album="Term project mockup" >}}
+
