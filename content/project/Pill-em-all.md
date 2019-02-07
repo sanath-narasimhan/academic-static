@@ -30,6 +30,9 @@ image = "6.PNG"
 album = "Term project mockup"
 image = "7.PNG"
 
+[[gallery_item]]
+album = "Term project mockup"
+image = "8.PNG"
 +++
 
 > **Feel Better  :heart:**
