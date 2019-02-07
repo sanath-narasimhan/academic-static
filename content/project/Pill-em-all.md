@@ -23,7 +23,7 @@ album = "Term project mockup"
 image = "5.PNG"
 
 [[gallery_item]]
-album = "Term project mockup"
+album = "academic-static/static/img/Term project mockup/1.PNG"
 image = "6.PNG"
 
 [[gallery_item]]
