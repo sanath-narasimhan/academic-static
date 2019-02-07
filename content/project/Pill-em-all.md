@@ -2,6 +2,34 @@
   
 title = "Pill em all"
 
+[[gallery_item]]
+album = "Term project mockup"
+image = "1.PNG"
+
+[[gallery_item]]
+album = "Term project mockup"
+image = "2.PNG"
+
+[[gallery_item]]
+album = "Term project mockup"
+image = "3.PNG"
+
+[[gallery_item]]
+album = "Term project mockup"
+image = "4.PNG"
+
+[[gallery_item]]
+album = "Term project mockup"
+image = "5.PNG"
+
+[[gallery_item]]
+album = "Term project mockup"
+image = "6.PNG"
+
+[[gallery_item]]
+album = "Term project mockup"
+image = "7.PNG"
+
 +++
 
 > **Feel Better  :heart:**
@@ -33,3 +61,4 @@ The Dataset consist of 7 fields in total.
 **_Get recommendations for best medication for a condition or a review that is most helpful for a medicine._**
 
 
+{{< gallery album="Term project mockup" >}}
