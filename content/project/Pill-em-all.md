@@ -13,4 +13,23 @@ If you remember your second guessing the effects of your medication you may not 
 
 The system will be built on the dataset available here: https://www.kaggle.com/jessicali9530/kuc-hackathon-winter-2018/home which has **_patient reviews_** on specific drugs along with related conditions and a **_10 star_** patient rating reflecting overall patient satisfaction .
 
+
+**Stage one Design Sketch**
 ![APP images preview](/img/img1.jpg)
+
+
+**Second stage of Design sketch**
+
+The Dataset consist of 7 fields in total.
+
+* **53,767** unique drug reviews
+* **2,638** medications
+* **709** conditions
+
+**_Users can search by Name of medication or condition and its symptoms._**
+
+**_Find reviews by various users relevant to your search history._**
+
+**_Get recommendations for best medication for a condition or a review that is most helpful for a medicine._**
+
+{{< gallery album="Term project mockup" >}}
