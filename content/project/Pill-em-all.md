@@ -4,7 +4,7 @@ title = "Pill em all"
 
 [[gallery_item]]
 album = "Term project mockup"
-image = "academic-static/static/img/Term project mockup/1.PNG"
+image = "1.PNG"
 
 [[gallery_item]]
 album = "Term project mockup"
@@ -19,7 +19,7 @@ album = "Term project mockup"
 image = "4.PNG"
 
 [[gallery_item]]
-album = ""
+album = "Term project mockup"
 image = "5.PNG"
 
 [[gallery_item]]
