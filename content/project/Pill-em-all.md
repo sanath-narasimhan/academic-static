@@ -2,8 +2,6 @@
   
 title = "Pill em all"
 
-{{< gallery album="Term project mockup" >}}
-
 +++
 
 > **Feel Better  :heart:**
