@@ -33,7 +33,7 @@ contact = "+1 682 228 9743"
   year = 2013
 
 [[education.courses]]
-  course = "Master of Computer Science"
+  course = "Master of Computer Science (Currently studying)"
   institution = "University of Texas at Arlington"
   year = 2018
 
