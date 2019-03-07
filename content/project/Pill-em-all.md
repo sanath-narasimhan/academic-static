@@ -65,3 +65,6 @@ The Dataset consist of 7 fields in total.
 
 
 {{< gallery album="Term project mockup" >}}
+
+
+**PHASE I WEB-APP link:** http://6dcd96c9.ngrok.io/
