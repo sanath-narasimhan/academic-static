@@ -1,5 +1,5 @@
 +++
-+++
+
 ##**Search Engine with Python**
 A good search engine need not be sophisticated, it is better to start simple to understand the workings of a good search engine.
 Of-course the first thing we need is a good dataset for raw textual data for oyr mining purpose. I have used the 
@@ -57,3 +57,4 @@ In the above equation, $T_1$ has query words whose top-10 elements contain revie
 $$ \overline{sim(q,d)} = \sum_{t\in q} w_{t,q} \times \overline{w_{t,d}}.$$
 
 
++++
