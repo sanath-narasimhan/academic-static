@@ -60,7 +60,7 @@ If  a review doesn't appear in the top-10 elements of some query words, use the 
 
 $$ \\overline{sim(q,r)} = \\sum_{t \\in T\\_1} w\\_{t,q} \\times w\\_{t,r} + \\sum\\_{t\\in T\\_2} w\\_{t,q} \\times \\overline{w\\_{t,r}}.$$
 
-In the above equation, $T\\_1$ has query words whose top-10 elements contain review. $T\\_2$ includes query words whose top-10 elements do not contain $r$. $\\overline{w\\_{t,r}}$ is the weight in the 10-th element of $t$'s postings list. 
+In the above equation, first part has query words whose top-10 elements contain review. Second part includes query words whose top-10 elements do not contain the review. The weight in the 10-th element of word's postings list is used here. 
 
 $$ \\overline{sim(q,d)} = \\sum_{t\\in q} w\\_{t,q} \\times \\overline{w\\_{t,d}}.$$
 
