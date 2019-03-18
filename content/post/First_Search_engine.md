@@ -4,7 +4,7 @@
 <h1>**Search Engine with Python**</h1>
 A good search engine need not be sophisticated, it is better to start simple to understand the workings of a good search engine.
 Of-course the first thing we need is a good dataset for raw textual data for oyr mining purpose. I have used the 
-kaggle data-set:https://www.kaggle.com/jessicali9530/kuc-hackathon-winter-2018/home which consists of patient reviews on medications.
+kaggle [data-set](https://www.kaggle.com/jessicali9530/kuc-hackathon-winter-2018/home) which consists of patient reviews on medications.
 This is in  _**csv**_  format so we use **pandas** dataframe to load it into python.
 
 
@@ -47,11 +47,11 @@ pre-processing as our reviews, converting to lower case, stop word removal and l
 We calculate the weights of words in the query using only term frequency. Now we retrieve the **top 10** reviews from the posting lists of each word in the search query. 
 If a review appears in the top-10 elements of every query word, calculate cosine similarity score. 
 
- sim(q,r) = \vec{q} \cdot \vec{r} = \sum_{t\ \text{in both q and r}} w_{t,q} \times w_{t,r}.
+$$ sim(q,r) = \\vec{q} \\cdot \\vec{r} = \\sum\\_{t\\ \\text{in both q and r}} w\\_{t,q} \\times w\\_{t,r}.$$
 
 If  a review doesn't appear in the top-10 elements of some query words, use the weight in the 10th element as the upper-bound on weight in vector. Hence, we can calculate the upper-bound score for using the query word's actual and upper-bound weights with respect to vector, as follows. 
 
-$$ \overline{sim(q,r)} = \sum_{t \in T_1} w_{t,q} \times w_{t,r} + \sum_{t\in T_2} w_{t,q} \times \overline{w_{t,r}}.$$
+$$ \\overline{sim(q,r)} = \\sum_{t \\in T\\_1} w\\_{t,q} \\times w\\_{t,r} + \\sum\\_{t\\in T\\_2} w\\_{t,q} \\times \\overline{w\\_{t,r}}.$$
 
 In the above equation, $T_1$ has query words whose top-10 elements contain review. $T_2$ includes query words whose top-10 elements do not contain $r$. $\overline{w_{t,r}}$ is the weight in the 10-th element of $t$'s postings list. 
 
