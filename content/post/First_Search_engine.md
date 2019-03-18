@@ -62,7 +62,7 @@ $$ \\overline{sim(q,r)} = \\sum_{t \\in T\\_1} w\\_{t,q} \\times w\\_{t,r} + \\s
 
 In the above equation, first part has query words whose top-10 elements contain review. Second part includes query words whose top-10 elements do not contain the review. The weight in the 10-th element of word's postings list is used here. 
 
-$$ \\overline{sim(q,d)} = \\sum_{t\\in q} w\\_{t,q} \\times \\overline{w\\_{t,d}}.$$
+$$ \\overline{sim(q,r)} = \\sum_{t\\in q} w\\_{t,q} \\times \\overline{w\\_{t,r}}.$$
 
 </body>
 
