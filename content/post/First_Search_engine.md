@@ -44,10 +44,11 @@ I used **[bootstrap](https://getbootstrap.com/docs/4.3/getting-started/introduct
 for css styling. For more detailed overview of the front-end files and back-end code check out my [github repository](https://github.com/sanath-narasimhan/Pill-em-All) 
 
 </body>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 
 <h2>**Query processing and calculating similarity**</h2>
 <body>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
 Finally we use the input box we created in our application's search page to retrive user search query and make it undergo the same 
 pre-processing as our reviews, converting to lower case, stop word removal and lemmatization.
 We calculate the weights of words in the query using only term frequency. Now we retrieve the **top 10** reviews from the posting lists of each word in the search query. 
@@ -64,4 +65,4 @@ In the above equation, $T_1$ has query words whose top-10 elements contain revie
 $$ \overline{sim(q,d)} = \sum_{t\in q} w_{t,q} \times \overline{w_{t,d}}.$$
 
 </body>
-</script>
+
