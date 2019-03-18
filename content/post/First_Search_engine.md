@@ -58,7 +58,7 @@ $$ {sim(q,d)} = \\vec{q} \\cdot \\vec{d} = \\sum_{t\ \\text{in both q and d}} w\
 
 If  a review doesn't appear in the top-10 elements of some query words, use the weight in the 10th element as the upper-bound on weight in vector. Hence, we can calculate the upper-bound score for using the query word's actual and upper-bound weights with respect to vector, as follows. 
 
-$$ \\overline{sim(q,r)} = \\sum_{t\\in T_1} w\_{t,q} \\times w\_{t,r} + \\sum_{t \\in T_2} w\_{t,q} \\times \\overline{w\_{t,r}}.$$
+$$ \\overline{sim(q,r)} = \\sum_{t\\in T\_1} w\_{t,q} \\times w\_{t,r} + \\sum_{t \\in T\_2} w\_{t,q} \\times \\overline{w\_{t,r}}.$$
 
 In the above equation, first part has query words whose top-10 elements contain review. Second part includes query words whose top-10 elements do not contain the review. The weight in the 10-th element of word's postings list is used here. 
 
