@@ -140,7 +140,7 @@ custom_js  = []
   #   0 = Simple
   #   1 = Detailed
   #   2 = Stream
-  post_format = 2
+  post_format = 1
 
   # Publication list format.
   #   0 = Simple
