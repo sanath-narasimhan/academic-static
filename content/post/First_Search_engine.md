@@ -1,6 +1,7 @@
 +++
+\usepackage{mathtools}
 +++
-**Search Engine with Python**
+<h1>**Search Engine with Python**</h1>
 A good search engine need not be sophisticated, it is better to start simple to understand the workings of a good search engine.
 Of-course the first thing we need is a good dataset for raw textual data for oyr mining purpose. I have used the 
 kaggle data-set:https://www.kaggle.com/jessicali9530/kuc-hackathon-winter-2018/home which consists of patient reviews on medications.
