@@ -27,11 +27,14 @@ of the word within the review.
 Using this we can now calculate the weights of each word in every review to create posting list for all words. For this we use the **tf-idf** [term frequency-Inverted document frequency](https://medium.freecodecamp.org/how-to-process-textual-data-using-tf-idf-in-python-cd2bbc0a94a3)
 The third element in the _list_ is the posting list for every word.
   **Prototype:**
+  <pre>
   { word1 : [ docfreq, { docid1:[pos1, pos2, .....], docid2:[pos1, pos2, ....], ....... }, **{ doc1:w1, doc2:w2, .... }** ]
    .
    . 
    .
   }
+  </pre>
+  
 <h2>**Building a Webapp front end**</h2>
 For obtaining the query we need to build a front end for our application. I have selected **Flask** for Webapp developement as it is simple enough to pick up quickly and also has features like built in development server and uses django frame work with routing techniques with decorators
 [Check out the documentation for flask here](http://flask.pocoo.org/docs/0.12/)
@@ -40,6 +43,8 @@ Since I have almost no front-end development expirence my Webapp is very minimal
 I used **[bootstrap](https://getbootstrap.com/docs/4.3/getting-started/introduction/)**
 for css styling. For more detailed overview of the front-end files and back-end code check out my [github repository](https://github.com/sanath-narasimhan/Pill-em-All) 
 
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 
 <h2>**Query processing and calculating similarity**</h2>
 Finally we use the input box we created in our application's search page to retrive user search query and make it undergo the same 
@@ -58,4 +63,4 @@ In the above equation, $T_1$ has query words whose top-10 elements contain revie
 $$ \overline{sim(q,d)} = \sum_{t\in q} w_{t,q} \times \overline{w_{t,d}}.$$
 
 
-
+</script>
