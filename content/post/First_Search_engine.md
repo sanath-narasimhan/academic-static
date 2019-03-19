@@ -46,7 +46,7 @@ for css styling. For more detailed overview of the front-end files and back-end 
 </body>
 
 <h2>**Query processing and calculating similarity**</h2>
-<body>
+
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
 Finally we use the input box we created in our application's search page to retrive user search query and make it undergo the same 
@@ -58,7 +58,7 @@ $$ {sim(q,d)} = \\vec{q} \\cdot \\vec{d} = \\sum_{t\ \\text{in both q and d}} w\
 
 If  a review doesn't appear in the top-10 elements of some query words, use the weight in the 10th element as the upper-bound on weight in vector. Hence, we can calculate the upper-bound score for using the query word's actual and upper-bound weights with respect to vector, as follows. 
 
-$$ \\overline{sim(q,r)} = \\sum_{t\\in T_1} w\_{t,q} \\times w\_{t,r} + \sum_{t\\in T_2}.$$
+$$ \\overline{sim(q,r)} = \\sum_{t\\in T_1} w\_{t,q} \\times w\_{t,r}.$$
 
 
 In the above equation, first part has query words whose top-10 elements contain review. Second part includes query words whose top-10 elements do not contain the review. The weight in the 10-th element of word's postings list is used here. 
@@ -66,6 +66,6 @@ In the above equation, first part has query words whose top-10 elements contain 
 $$ \\overline{sim(q,r)} = \\sum_{t\\in q} w\_{t,q} \\times \\overline{w\_{t,r}}.$$
 
 
-</body>
 
-$$ \\sum_{t\\in T_2} w\_{t,q} \\times \\overline{w\_{t,r}}.$$
+
+$$ + \sum_{t\\in T_2} w\_{t,q} \\times \\overline{w\_{t,r}}.$$
