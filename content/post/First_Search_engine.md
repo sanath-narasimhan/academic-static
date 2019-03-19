@@ -19,7 +19,7 @@ the _**split**_ function for a string. We ensure that all words are in **lower c
 
 The **nltk** library is one of the best and easiest for natural language processing with python which includes **_stopwords.stop("english")_** which can be downloaded and the function is available in the **corpus** function on the module. We use this to remove stop words from our  reviews. The library also consists of **_WordNetLemmatizer()_** using which we create a lemmatizer object and use the **__lemmatize()__** function on each word to find it's root word. This ends the preprocessing step.
 
-<h3>**Creating Vocabulary:**</h3>
+<h2>**Creating Vocabulary:**</h2>
 <body>We use the inverted index technique which is popular in search engines nowadays. It is very fast as we only calculate similarity for top few reviews.
 This is a crucial step, here we traverse through all the preprocessed reviews in our dataset to find unique words in the entire pool. Forthis we
 use a python __dictionary__ as the use hash indexing which is fast. The **keys** of this dictionary are the words. The **value** consists of a _list_, whose first element is the **document frequency** of that word _(number of reviews the word occurs in)_. The second element of this _list_ is another _dictionay_ where **keys** are **ID's** of reviews in which a word occured, **values** are a _list_ with the index position(s)
@@ -35,7 +35,7 @@ The third element in the _list_ is the posting list for every word.
   }
   </pre>
 </body> 
-<h4>**Building a Webapp front end**</h4>
+<h2>**Building a Webapp front end**</h2>
 <body>For obtaining the query we need to build a front end for our application. I have selected **Flask** for Webapp developement as it is simple enough to pick up quickly and also has features like built in development server and uses django frame work with routing techniques with decorators
 [Check out the documentation for flask here](http://flask.pocoo.org/docs/0.12/)
 
@@ -45,7 +45,7 @@ for css styling. For more detailed overview of the front-end files and back-end 
 
 </body>
 
-<h5>**Query processing and calculating similarity**</h5>
+<h2>**Query processing and calculating similarity**</h2>
 
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
