@@ -45,7 +45,7 @@ for css styling. For more detailed overview of the front-end files and back-end 
 
 </body>
 
-<h2>**Query processing and calculating similarity**</h2>
+**<h2>Query processing and calculating similarity</h2>**
 
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
