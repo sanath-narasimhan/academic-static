@@ -28,7 +28,8 @@ Using this we can now calculate the weights of each word in every review to crea
 The third element in the _list_ is the posting list for every word.
   **Prototype:**
   <pre>
-  { word1 : [ docfreq, { docid1:[pos1, pos2, .....], docid2:[pos1, pos2, ....], ....... }, **{ doc1:w1, doc2:w2, .... }** ]
+  { word1 : [ docfreq, { docid1:[pos1, pos2, .....], docid2:[pos1, pos2, ....], ....... }, 
+            **{ doc1:w1, doc2:w2, .... }** ]
    .
    . 
    .
