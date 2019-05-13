@@ -14,6 +14,47 @@ class.
 
 Naive Bayes is a family of algorithms based on applying Bayes theorem with an assumption, that every feature is independent of the others,
 in order to predict the category of a given sample. They are probabilistic classifiers, therefore will calculate the probability of each 
-class using Bayes theorem, and the classes with the highest probability will be output. 
+class using Bayes theorem, and the classes with the highest probability will be output.
+
+In our dataset the **condition** column that represents the medical condition a review is related, to is the class which we will try to predict.
+
+We have already preprocessed the reviews in Part 1 while building our search engine.
+Inorder to make the iterative process of tuning the algorithm we split the entire dataset into train, validation and test. Train consists 50% of the dataset, validation and test each have 25% of the remaining dataset.
+
+Use the exsisting code from part 1 to generate an Inverted Index vocabulary on the training set.
 
 $$ P(A \mid B) = \frac{P(B \mid A) \, P(A)}{P(B)} $$
+
+<h2>Steps to calculating the prior probablities:</h2>
+1. Create a temporary python **dictionary** which stores the list of all documents that occur in each class, all unique words from the vocabulary in each class and the count of total number of words in each class.
+<pre>
+temp_class_dict = { class-1 : [[review-1, review-2,.......,review-n], 
+                              [word-1, word-2, word-3,.......,word-n], 
+                              count_total_words]
+                      .
+                      .
+                      . }
+</pre>
+2.Create the **dictionary** to store the prior probablities of each class by
+<p>
+  P(class) = Number of reviews within the class / Total number of training set.</p>
+  
+3. Create an inner dictionary for each class with words that occur within the class as keys and store the number for times the word occured within all reviews in the class and the total number of reviews in which it occured within the class.
+<pre>
+naive_class_dict = { class : [P(class), count_total_words, count_unique_words,
+                              {word-1 : [count_total_occurence, count_review_occurrence]
+                                 .
+                                 .
+                                 . }
+                       .
+                       .
+                       .
+                          }
+</pre>                          
+Consider the below example, we will see how to use the priop probablities to calculate the probablity of this review belonging to 
+class **Urinary Tract Infection**.
+<pre>
+**drugName condition	                                   review	                 rating	usefulCount 	        revvec	           revID**
+Cipro 	Urinary Tract Infection	"I also had a very bad reaction to this medication!"	1		44	['bad', 'reaction', 'medication'] 109180
+</pre>
+
