@@ -24,8 +24,10 @@ Inorder to make the iterative process of tuning the algorithm we split the entir
 Use the exsisting code from part 1 to generate an Inverted Index vocabulary on the training set.
 
 $$ P(A \mid B) = \frac{P(B \mid A) \, P(A)}{P(B)} $$
+</body>
 
 <h2>Steps to calculating the prior probablities:</h2>
+<body>
 1. Create a temporary python **dictionary** which stores the list of all documents that occur in each class, all unique words from the vocabulary in each class and the count of total number of words in each class.
 <pre>
 temp_class_dict = { class-1 : [[review-1, review-2,.......,review-n], 
@@ -35,7 +37,7 @@ temp_class_dict = { class-1 : [[review-1, review-2,.......,review-n],
                       .
                       . }
 </pre>
-2.Create the **dictionary** to store the prior probablities of each class by
+2. Create the **dictionary** to store the prior probablities of each class by
 <p>
   P(class) = Number of reviews within the class / Total number of training set.
 </p>
@@ -52,13 +54,20 @@ naive_class_dict = { class : [P(class), count_total_words, count_unique_words,
                        .
                           }
 </pre> 
+
 <h4>Calculating probablity of a given review belonging to a class:</h4>
+
 Consider the below example, we will see how to use the priop probablities to calculate the probablity of this review belonging to 
 class **Urinary Tract Infection**.
+
 <pre>
+
+
 **drugName condition	                                   review	                 rating	usefulCount 	        revvec	           revID**
 
 Cipro 	Urinary Tract Infection	"I also had a very bad reaction to this medication!"	1		44	['bad', 'reaction', 'medication'] 109180
+
+
 </pre>
 naive_class_dict['Urinary Tract Infection'][3]['bad'] = [315, 249]
 naive_class_dict['Urinary Tract Infection'][3]['reaction'] = [74, 66]
@@ -76,13 +85,31 @@ P(class) = number of reviews in the class / total number of reviews
 
 * p(w1 | clas) = (number of times w1 occurs in class + alpha) / (total number of words in class + total number of vords in the vocabulary)
 
-Here aplha is the smoothing factor which helps overcome problems of when a word in the query does not occur within a class.
+* Here aplha is the smoothing factor which helps overcome problems of when a word in the query does not occur within a class.
 This hyperparameter comes handy when trying to optimize the classificaation, that is increase the accuracy.
 
-
+<pre>
 P(Urinary Tract Infection) = 0.008207509918583007
 P(bad | Urinary Tract Infection) = (315 + 1 )/ (28831 + 32622) = -4.376021118875437
 P( reaction | Urinary Tract Infection ) = (74 + 1) / (28831 + 32622) =  -7.295332487596864
 P( medication | Urinary Tract Infection ) = (265 + 1) / (28831 + 32622) =  -9.66062970253546
+</pre>
+</body>
 
-* 
+<h2>## Challenges Faced</h2>
+<body>
+1. Optimizing the algorithm was a bit challenging. Created a custom list stop words that are dataset specific. As the text we analyse are reviews the features are not all that unique between classes.
+
+2. Choosing the alpha value was a decission I took to improver the accuracy of the classifier. Generally alpha is assumed to be 1, but the accuracy was 
+<pre> aplha       Accuraacy%       Error% </b>
+        1           53.6 %          46.4 %</b>
+       0.1          54.2 %          45.8 %</b>
+      0.0001        53.304 %        46.69 %</b>
+      0.00001       55.4 %          44.59 %</b>
+     0.0000001      59.69 %         42.3 %</b>
+</pre>
+</body>
+
+##Referrences:
+
+        
