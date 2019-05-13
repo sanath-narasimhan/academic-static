@@ -1,7 +1,7 @@
 +++
 
 +++
-<h1>**Multinomisl Naive Bayes Classification**</h1>
+<h1>**Multinomial Naive Bayes Classification**</h1>
 <body>
 A classifier is an algorithm that differentiates similar objects based on some features. Naive Bayes is one of the more popular classifiers 
 when it comes to text classification as it has been successfully applied to many domains, particularly Natural Language Processing(NLP).
