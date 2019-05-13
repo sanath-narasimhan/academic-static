@@ -96,7 +96,7 @@ P( medication | Urinary Tract Infection ) = (265 + 1) / (28831 + 32622) =  -9.66
 </pre>
 </body>
 
-<h2>## Challenges Faced</h2>
+<h2>Challenges Faced</h2>
 <body>
 1. Optimizing the algorithm was a bit challenging. Created a custom list stop words that are dataset specific. As the text we analyse are reviews the features are not all that unique between classes.
 
