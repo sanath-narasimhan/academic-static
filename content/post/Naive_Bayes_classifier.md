@@ -37,7 +37,8 @@ temp_class_dict = { class-1 : [[review-1, review-2,.......,review-n],
 </pre>
 2.Create the **dictionary** to store the prior probablities of each class by
 <p>
-  P(class) = Number of reviews within the class / Total number of training set.</p>
+  P(class) = Number of reviews within the class / Total number of training set.
+</p>
   
 3. Create an inner dictionary for each class with words that occur within the class as keys and store the number for times the word occured within all reviews in the class and the total number of reviews in which it occured within the class.
 <pre>
@@ -50,11 +51,38 @@ naive_class_dict = { class : [P(class), count_total_words, count_unique_words,
                        .
                        .
                           }
-</pre>                          
+</pre> 
+<h4>Calculating probablity of a given review belonging to a class:</h4>
 Consider the below example, we will see how to use the priop probablities to calculate the probablity of this review belonging to 
 class **Urinary Tract Infection**.
 <pre>
 **drugName condition	                                   review	                 rating	usefulCount 	        revvec	           revID**
+
 Cipro 	Urinary Tract Infection	"I also had a very bad reaction to this medication!"	1		44	['bad', 'reaction', 'medication'] 109180
 </pre>
+naive_class_dict['Urinary Tract Infection'][3]['bad'] = [315, 249]
+naive_class_dict['Urinary Tract Infection'][3]['reaction'] = [74, 66]
+naive_class_dictnaivecps['Urinary Tract Infection'][3]['medication'] = [265, 198]
 
+* so, the probablity of a given query belonging to a class is
+
+P(class | w1,w2,w3) = log(P(w1 | class) * P(w1 | class) * P(w1 | class) * P(class))
+
+* probablity of a class is
+
+P(class) = number of reviews in the class / total number of reviews
+
+* probablity of a word w1 occuring in a class
+
+* p(w1 | clas) = (number of times w1 occurs in class + alpha) / (total number of words in class + total number of vords in the vocabulary)
+
+Here aplha is the smoothing factor which helps overcome problems of when a word in the query does not occur within a class.
+This hyperparameter comes handy when trying to optimize the classificaation, that is increase the accuracy.
+
+
+P(Urinary Tract Infection) = 0.008207509918583007
+P(bad | Urinary Tract Infection) = (315 + 1 )/ (28831 + 32622) = -4.376021118875437
+P( reaction | Urinary Tract Infection ) = (74 + 1) / (28831 + 32622) =  -7.295332487596864
+P( medication | Urinary Tract Infection ) = (265 + 1) / (28831 + 32622) =  -9.66062970253546
+
+* 
