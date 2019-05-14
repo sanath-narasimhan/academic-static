@@ -1,6 +1,6 @@
 +++
   
-title = "Pill em all"
+title = "Pill em all proposal"
 
 [[gallery_item]]
 album = "Term project mockup"
