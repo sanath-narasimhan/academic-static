@@ -117,13 +117,14 @@ $$ \\overline{sim(q,r)} = \\sum_{t\\in q} w\_{t,q} \\times \\overline{w\_{t,r}}.
 
 4. Used **nltk's** **_WordNetLemmatizer_** for feature selection.
 </body>
+
 <h5> Referrences</h5>
-<body>
-* (https://nlp.stanford.edu/IR-book/html/htmledition/a-first-take-at-building-an-inverted-index-1.html)
+
+*  (https://nlp.stanford.edu/IR-book/html/htmledition/a-first-take-at-building-an-inverted-index-1.html)
 
 * [Sample code given](https://colab.research.google.com/drive/1n1hUx-mO4EqhKyFmN--9pK5MhKR68MpB#scrollTo=8ILVjili5Xmu)
 
-</body>
+</b>
 Continue reading to implement Multinomial Naive Bayes classifier.
 
 [Part 2](https://sananara-aryabhata.netlify.com/post/naive-bayes-classifier/)
