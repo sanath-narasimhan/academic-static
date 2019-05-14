@@ -1,5 +1,5 @@
 +++
-#Search Engine with Python**
+title = "Search Engine with Python"
 +++
 <h1>**Search Engine with Python**</h1>
 <body>A good search engine need not be sophisticated, it is better to start simple to understand the workings of a good search engine.
@@ -42,6 +42,23 @@ The third element in the _list_ is the posting list for every word.
   </pre>
 </body> 
 
+<h3> Calculating the tf-idf weights for each word </h3>
+<body>
+  1. After construction of the first stage of the vocabulary we now calculate the weights of each word.
+  2. Term frequency of a word is given with respect to each review it appears in:
+  <pre>
+  word1-tf-review1 = number of times word1 appears in review1 / number of words in review1
+  </pre>
+  3. Inverse document frequency for a word is defined by:
+  <pre>
+  word1-idf = total number of reviews in the dataset / number of reviews word1 occurs in
+  </pre>
+  4. The weight of a word in a reviewis given by:
+  <pre>
+  word1-weight-review1 = (1+ log(word1-tf-review1)) / (word1-idf)
+  </pre>
+  
+</body>
 
 **<h2>Query processing and calculating similarity</h2>**
 
@@ -61,10 +78,45 @@ $$ \\overline{sim(q,r)} = \\sum_{t\\in T_1} w\_{t,q} \\times w\_{t,r}.$$
 $$  + \sum_{t\\in T_2} w\_{t,q} \\times \\overline{w\_{t,r}}.$$
 
 
-In the above equation, first part has query words whose top-k elements contain review. Second part includes query words whose top-10 elements do not contain the review. The weight in the 10-th element of word's postings list is used here. 
+In the above equation, first part has query words whose top-k elements contain review. Second part includes query words whose top-k elements do not contain the review. The weight in the 10-th element of word's postings list is used here. 
 
 $$ \\overline{sim(q,r)} = \\sum_{t\\in q} w\_{t,q} \\times \\overline{w\_{t,r}}.$$
 
+* We choose k as 20, this acts as a hyperparameter forthe search. Set k to be 20 as trial and error shows that this is optimal value.
+
+* Let query be "My stomach hurts", After preprocessing the the vector representation will be ['stomach','hurt']
+
+* Below we show how to algorithm calculate similarity of query.
+<pre>
+  word-weight-query = number of times word appears in the query / number of words in query
 
 
+  1. retrive top 20 of posting list for each word in query
+  2. find the list of all reviews. 
+  3. for every review:
+  4.   for every word:
+  5.     if word exsists in the review:
+  6.        score += word-weight-review * word-weight-query 
+  7.     else:
+  8.        score += word-weight-review20 * word-weight-query
+
+</pre>
+
+<h2> Challenges faced </h2>
+1. Implementing the count of words in each word. Used the concept of positional indexing.
+2. Getting the posting list for each word. It was computationally expensive to sort every posting list and keep them stored prior to the query similarity calculation. Sort only the posting list being retrived while calculating the similarity.
+
+<h4> Contributions: </h4>
+1. Implemented my own Inverted index from scratch using numpy and pandas.
+2. Created A way to quickly retrive the posting lists for similarity calculation.
+3. Improving efficiency by dropping words that appear too many times from the vocabulary.
+4. Used **nltk's** **_WordNetLemmatizer_** for feature selection.
+
+<h5> Referrences</h5>
+* (https://nlp.stanford.edu/IR-book/html/htmledition/a-first-take-at-building-an-inverted-index-1.html)
+* [Sample code given](https://colab.research.google.com/drive/1n1hUx-mO4EqhKyFmN--9pK5MhKR68MpB#scrollTo=8ILVjili5Xmu)
+
+
+Continue reading to implement Multinomial Naive Bayes classifier.
+[Part 2]({{<ref "/post/Naive-Bayes-classifier/index.md">}})
 
