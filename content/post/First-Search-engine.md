@@ -104,19 +104,25 @@ $$ \\overline{sim(q,r)} = \\sum_{t\\in q} w\_{t,q} \\times \\overline{w\_{t,r}}.
 
 <h2> Challenges faced </h2>
 1. Implementing the count of words in each word. Used the concept of positional indexing.
+
 2. Getting the posting list for each word. It was computationally expensive to sort every posting list and keep them stored prior to the query similarity calculation. Sort only the posting list being retrived while calculating the similarity.
 
 <h4> Contributions: </h4>
+<body>
 1. Implemented my own Inverted index from scratch using numpy and pandas.
+
 2. Created A way to quickly retrive the posting lists for similarity calculation.
+
 3. Improving efficiency by dropping words that appear too many times from the vocabulary.
+
 4. Used **nltk's** **_WordNetLemmatizer_** for feature selection.
 
 <h5> Referrences</h5>
 * (https://nlp.stanford.edu/IR-book/html/htmledition/a-first-take-at-building-an-inverted-index-1.html)
 * [Sample code given](https://colab.research.google.com/drive/1n1hUx-mO4EqhKyFmN--9pK5MhKR68MpB#scrollTo=8ILVjili5Xmu)
 
-
+</body>
 Continue reading to implement Multinomial Naive Bayes classifier.
-[Part 2](https://sananara-aryabhata.netlify.com/post/naive_bayes_classifier/)
+
+[Part 2](https://sananara-aryabhata.netlify.com/post/naive-bayes-classifier/)
 
