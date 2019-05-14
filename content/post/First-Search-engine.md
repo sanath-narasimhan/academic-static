@@ -118,5 +118,5 @@ $$ \\overline{sim(q,r)} = \\sum_{t\\in q} w\_{t,q} \\times \\overline{w\_{t,r}}.
 
 
 Continue reading to implement Multinomial Naive Bayes classifier.
-[Part 2](https://github.com/sanath-narasimhan/academic-static/blob/master/content/post/Naive-Bayes-classifier.md)
+[Part 2](https://sananara-aryabhata.netlify.com/post/first_search_engine/)
 
