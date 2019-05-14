@@ -63,7 +63,7 @@ class **Urinary Tract Infection**.
 <pre>
 
 <table>
-<tr>**<th>drugName condition</th>	                                   <th>review</th>	                 <th>rating</th>	<th>usefulCount</th> 	        <th>revvec</th>	           <th>revID</th>**</tr>
+  <tr>**<th>drugName</th> <th>condition</th>	                                   <th>review</th>	                 <th>rating</th>	<th>usefulCount</th> 	        <th>revvec</th>	           <th>revID</th>**</tr>
 
 <tr><td>Cipro</td> 	<td>Urinary Tract Infection</td>	<td>"I also had a very bad reaction to this medication!"</td>	<td>1</td>		<td>44</td>	<td>['bad', 'reaction', 'medication']</td> <td>109180</td></tr>
 
@@ -123,5 +123,5 @@ P( medication | Urinary Tract Infection ) = (265 + 1) / (28831 + 32622) =  -9.66
 * (https://nlp.stanford.edu/IR-book/html/htmledition/naive-bayes-text-classification-1.html)
 
 
-[Part 1]({{<ref "/post/First-Search-engine.md/index.md">}})
+[Part 1]({{<ref "/post/First-Search-engine/index.md">}})
         
