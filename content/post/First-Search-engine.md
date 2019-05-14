@@ -103,12 +103,12 @@ $$ \\overline{sim(q,r)} = \\sum_{t\\in q} w\_{t,q} \\times \\overline{w\_{t,r}}.
 </pre>
 
 <h2> Challenges faced </h2>
-1. Implementing the count of words in each word. Used the concept of positional indexing.
 
-2. Getting the posting list for each word. It was computationally expensive to sort every posting list and keep them stored prior to the query similarity calculation. Sort only the posting list being retrived while calculating the similarity.
+1.  Implementing the count of words in each word. Used the concept of positional indexing.
+2.  Getting the posting list for each word. It was computationally expensive to sort every posting list and keep them stored prior to the query similarity calculation. Sort only the posting list being retrived while calculating the similarity.
 
 <h4> Contributions: </h4>
-<body>
+
 1. Implemented my own Inverted index from scratch using numpy and pandas.
 
 2. Created A way to quickly retrive the posting lists for similarity calculation.
@@ -116,7 +116,7 @@ $$ \\overline{sim(q,r)} = \\sum_{t\\in q} w\_{t,q} \\times \\overline{w\_{t,r}}.
 3. Improving efficiency by dropping words that appear too many times from the vocabulary.
 
 4. Used **nltk's** **_WordNetLemmatizer_** for feature selection.
-</body>
+
 
 <h5> Referrences</h5>
 
