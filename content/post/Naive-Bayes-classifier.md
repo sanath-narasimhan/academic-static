@@ -98,9 +98,11 @@ P( medication | Urinary Tract Infection ) = (265 + 1) / (28831 + 32622) =  -9.66
 
 <h2>Challenges Faced</h2>
 <body>
-1. Optimizing the algorithm was a bit challenging. Created a custom list stop words that are dataset specific. As the text we analyse are reviews the features are not all that unique between classes.
+* Optimizing the algorithm was a bit challenging. Created a custom list stop words that are dataset specific. As the text we analyse are reviews the features are not all that unique between classes.
+  
+* Choosing the alpha value was a decission I took to improver the accuracy of the classifier. Generally alpha is assumed to be 1.
 
-2. Choosing the alpha value was a decission I took to improver the accuracy of the classifier. Generally alpha is assumed to be 1.
+
 
 <pre> aplha       Accuraacy%       Error% </b>
         1           53.6 %          46.4 %</b>
@@ -118,6 +120,9 @@ P( medication | Urinary Tract Infection ) = (265 + 1) / (28831 + 32622) =  -9.66
 
 
 2. Smoothing hyperparameter optimized to 0.0000001 insted of default value 1.
+
+
+3. Created custom test, train, validation splitter which ensures even distribution of reviews  based on the medical condition it is associated with.
 
 <h6>Referrences:</h6>
 
