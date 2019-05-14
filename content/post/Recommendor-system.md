@@ -54,4 +54,5 @@ Content-Based recommendation is a better fit for our dataset. In this technique 
 * (https://medium.com/@cfpinela/content-based-recommender-systems-a68c2aee2235)
 
 **Check Part 1 of this series to find how to implement the similarity algorithm using the generated Inverted index**
+
 [Part 1] (https://sananara-aryabhata.netlify.com/post/first-search-engine/)
