@@ -1,5 +1,5 @@
 +++
-
+title="Multinomial Naive Bayes Classification"
 +++
 <h1>**Multinomial Naive Bayes Classification**</h1>
 <body>
@@ -62,12 +62,12 @@ class **Urinary Tract Infection**.
 
 <pre>
 
+<table>
+**<th>drugName condition</th>	                                   <th>review</th>	                 <th>rating</th>	<th>usefulCount</th> 	        <th>revvec</th>	           <th>revID</th>**
 
-**drugName condition	                                   review	                 rating	usefulCount 	        revvec	           revID**
+<td>Cipro</td> 	<td>Urinary Tract Infection</td>	<td>"I also had a very bad reaction to this medication!"</td>	<td>1</td>		<td>44</td>	<td>['bad', 'reaction', 'medication']</td> <td>109180</td>
 
-Cipro 	Urinary Tract Infection	"I also had a very bad reaction to this medication!"	1		44	['bad', 'reaction', 'medication'] 109180
-
-
+</table>
 </pre>
 naive_class_dict['Urinary Tract Infection'][3]['bad'] = [315, 249]
 naive_class_dict['Urinary Tract Infection'][3]['reaction'] = [74, 66]
@@ -107,9 +107,20 @@ P( medication | Urinary Tract Infection ) = (265 + 1) / (28831 + 32622) =  -9.66
       0.0001        53.304 %        46.69 %</b>
       0.00001       55.4 %          44.59 %</b>
      0.0000001      59.69 %         42.3 %</b>
+     0.00000001     54.2 %          45.8 %</b>
 </pre>
 </body>
 
-##Referrences:
+<h5>Contributions</h5>
+1. Developed the classifier algorithm in numpy.
+2. Smoothing hyperparameter optimized to 0.0000001 insted of default value 1.
 
+<h6>Referrences:</h6>
+
+* (https://towardsdatascience.com/multinomial-naive-bayes-classifier-for-text-analysis-python-8dd6825ece67)
+* (https://medium.com/syncedreview/applying-multinomial-naive-bayes-to-nlp-problems-a-practical-explanation-4f5271768ebf)
+* (https://nlp.stanford.edu/IR-book/html/htmledition/naive-bayes-text-classification-1.html)
+* (https://nlp.stanford.edu/IR-book/html/htmledition/naive-bayes-text-classification-1.html)
+
+[Part 1]({{<ref "/post/First-Search-engine.md/index.md>}})
         
