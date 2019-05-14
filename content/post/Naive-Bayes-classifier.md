@@ -63,9 +63,9 @@ class **Urinary Tract Infection**.
 <pre>
 
 <table>
-**<th>drugName condition</th>	                                   <th>review</th>	                 <th>rating</th>	<th>usefulCount</th> 	        <th>revvec</th>	           <th>revID</th>**
+<tr>**<th>drugName condition</th>	                                   <th>review</th>	                 <th>rating</th>	<th>usefulCount</th> 	        <th>revvec</th>	           <th>revID</th>**</tr>
 
-<td>Cipro</td> 	<td>Urinary Tract Infection</td>	<td>"I also had a very bad reaction to this medication!"</td>	<td>1</td>		<td>44</td>	<td>['bad', 'reaction', 'medication']</td> <td>109180</td>
+<tr><td>Cipro</td> 	<td>Urinary Tract Infection</td>	<td>"I also had a very bad reaction to this medication!"</td>	<td>1</td>		<td>44</td>	<td>['bad', 'reaction', 'medication']</td> <td>109180</td></tr>
 
 </table>
 </pre>
@@ -121,6 +121,7 @@ P( medication | Urinary Tract Infection ) = (265 + 1) / (28831 + 32622) =  -9.66
 * (https://medium.com/syncedreview/applying-multinomial-naive-bayes-to-nlp-problems-a-practical-explanation-4f5271768ebf)
 * (https://nlp.stanford.edu/IR-book/html/htmledition/naive-bayes-text-classification-1.html)
 * (https://nlp.stanford.edu/IR-book/html/htmledition/naive-bayes-text-classification-1.html)
+
 
 [Part 1]({{<ref "/post/First-Search-engine.md/index.md>}})
         
