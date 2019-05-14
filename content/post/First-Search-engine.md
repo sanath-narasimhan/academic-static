@@ -107,6 +107,12 @@ $$ \\overline{sim(q,r)} = \\sum_{t\\in q} w\_{t,q} \\times \\overline{w\_{t,r}}.
 1.  Implementing the count of words in each word. Used the concept of positional indexing.
 2.  Getting the posting list for each word. It was computationally expensive to sort every posting list and keep them stored prior to the query similarity calculation. Sort only the posting list being retrived while calculating the similarity.
 
+<h3>Inverted Index vs Term Document Matrix</h3>
+The term document matrix was generated with gensim library
+* The retrive time for a search result was abot 10 seconds.
+The custom Inverted Index yields results dractically faster
+* The query retrive time was about 0.05 seconds
+
 <h4> Contributions: </h4>
 
 1. Implemented my own Inverted index from scratch using numpy and pandas.
