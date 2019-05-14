@@ -4,7 +4,7 @@ title="Content Based Recommendor System"
 
 +++
 
-<h1> ** Content Based Recommendor System ** </h1>
+<h1> **Content Based Recommendor System** </h1>
 <body>
 Recommendor systems are one of the most facinating algorithms that have been in the lime-light in the recent years. There are common algorithms that are used for making recommendations.
 Collaborative filtering is one of the most precise recommendation algorithm used by Netflix that is really popular.
