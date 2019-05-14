@@ -133,4 +133,6 @@ P( medication | Urinary Tract Infection ) = (265 + 1) / (28831 + 32622) =  -9.66
 
 
 [Part 1](https://sananara-aryabhata.netlify.com/post/first-search-engine/)
+
+[Part 3] (https://sananara-aryabhata.netlify.com/post/recommendor-system/)
         
