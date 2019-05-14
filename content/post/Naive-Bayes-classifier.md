@@ -102,7 +102,7 @@ P( medication | Urinary Tract Infection ) = (265 + 1) / (28831 + 32622) =  -9.66
   
 * Choosing the alpha value was a decission I took to improver the accuracy of the classifier. Generally alpha is assumed to be 1.
 
-
+**Tested on random sample of 30000 reviews of the validation set**
 
 <pre> aplha       Accuraacy%       Error% </b>
         1           53.6 %          46.4 %</b>
