@@ -1,10 +1,10 @@
 +++ 
 
-title="Content Based Recommendor System" 
+title="Content Based Recommender System" 
 
 +++
 
-<h1> **Content Based Recommendor System** </h1>
+<h1> **Content Based Recommender System** </h1>
 <body>
 Recommendor systems are one of the most facinating algorithms that have been in the lime-light in the recent years. There are common algorithms that are used for making recommendations.
 Collaborative filtering is one of the most precise recommendation algorithm used by Netflix that is really popular.
@@ -56,3 +56,5 @@ Content-Based recommendation is a better fit for our dataset. In this technique 
 **Check Part 1 of this series to find how to implement the similarity algorithm using the generated Inverted index**
 
 [Part 1] (https://sananara-aryabhata.netlify.com/post/first-search-engine/)
+
+[Part 3] (https://sananara-aryabhata.netlify.com/post/recommendor-system/)
