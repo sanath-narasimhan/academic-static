@@ -1,4 +1,5 @@
 +++
+{{<https://www.youtube.com/watch?v=8uatyMzRIKA>}}
 +++
 
 title = "Pill-em-All A Search engine for Medicine reviews"
@@ -11,7 +12,7 @@ The Project is developed in python using flask for the webapp development. The s
 with related conditions and a **_10 star_** patient rating with **_useful count_** reflecting overall patient satisfaction.
 
 # Demo video:
-{{<https://www.youtube.com/watch?v=8uatyMzRIKA>}}
+
 
 >Webapp: http://050e0e36.ngrok.io/
 
