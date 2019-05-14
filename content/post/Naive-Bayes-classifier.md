@@ -100,7 +100,8 @@ P( medication | Urinary Tract Infection ) = (265 + 1) / (28831 + 32622) =  -9.66
 <body>
 1. Optimizing the algorithm was a bit challenging. Created a custom list stop words that are dataset specific. As the text we analyse are reviews the features are not all that unique between classes.
 
-2. Choosing the alpha value was a decission I took to improver the accuracy of the classifier. Generally alpha is assumed to be 1, but the accuracy was 
+2. Choosing the alpha value was a decission I took to improver the accuracy of the classifier. Generally alpha is assumed to be 1.
+
 <pre> aplha       Accuraacy%       Error% </b>
         1           53.6 %          46.4 %</b>
        0.1          54.2 %          45.8 %</b>
@@ -112,7 +113,10 @@ P( medication | Urinary Tract Infection ) = (265 + 1) / (28831 + 32622) =  -9.66
 </body>
 
 <h5>Contributions</h5>
+
 1. Developed the classifier algorithm in numpy.
+
+
 2. Smoothing hyperparameter optimized to 0.0000001 insted of default value 1.
 
 <h6>Referrences:</h6>
