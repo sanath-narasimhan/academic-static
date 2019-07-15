@@ -5,7 +5,7 @@ title = "Human Data Lab - My goals"
 <h1>Human Data Lab</h1>
 <body>
   The lab is run by Dr.Deokgun Park at University of Texas at Arlington. The core area of interest is Artificial General Intelligence(AGI).
-  The goals of the lab are explained in [these videos]. (https://www.youtube.com/playlist?list=PLTM6ZLB6tl32YpFNsj1U53WwKXa1SQ3Bx)
+  The goals of the lab are explained in [these videos](https://www.youtube.com/playlist?list=PLTM6ZLB6tl32YpFNsj1U53WwKXa1SQ3Bx) .
 
 </body>  
 <h2>My goals</h2>
@@ -18,7 +18,7 @@ title = "Human Data Lab - My goals"
 <h3>Virtual environment for AI:</h3>
 
 <body>
-   Using Unity3D, learn develop a simulation/ a game that can be played by an AI similar to [Obstacle Tower challenge]. (https://www.aicrowd.com/challenges/unity-obstacle-tower-challenge)
+   Using Unity3D, learn develop a simulation/ a game that can be played by an AI similar to [Obstacle Tower challenge] (https://www.aicrowd.com/challenges/unity-obstacle-tower-challenge) .
    I am familiar with Blender for creating animations and have started to learn animation with unity3D. Some of the tasks include animation from motion capture data,
    both face and body.
    Faceware Live is the face motion capture software that has a plug-in for unity3D. The challenge would be in creating a seamless virtual human
