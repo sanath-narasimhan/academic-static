@@ -10,12 +10,21 @@ title = "Human Data Lab - My goals "
   
 <pre>
 
-I have been working in **HDILAB** over the course of Spring 2019. This was my first ever experiencein research work and I quite enjoyed the workflow. Documentation was an alien concpet that I was introduced to which seemed like the missing piece of the puzzel for me to further improve and reflect upon what I have learnt. It had been my life long dream to be developing games at some caliber and I finally took a step into this world learning animation and VR control mapping in Unity3D. I was exposed to the current state of AI and deep learning approaches. I got experience giving a live seminar over **Multi-Layer Perceptron** implementation with **numpy** in **python3**.  I read about many ways of creating virtual environment and how reinforcement learning played a key role in the current approaches.
+I have been working in **HDILAB** over the course of Spring 2019. This was my first ever experiencein research work and I quite enjoyed
+the workflow. Documentation was an alien concpet that I was introduced to which seemed like the missing piece of the puzzel for me to
+further improve and reflect upon what I have learnt. It had been my life long dream to be developing games at some caliber and I finally
+took a step into this world learning animation and VR control mapping in Unity3D. I was exposed to the current state of AI and deep
+learning approaches. I got experience giving a live seminar over **Multi-Layer Perceptron** implementation with **numpy** in 
+**python3**.  I read about many ways of creating virtual environment and how reinforcement learning played a key role in the current
+approaches.
 
 </pre>
 <pre>
 
-Dr.Park and I had a discussion about tasks that I was assigned and how I executed them. My main problem was that Ikept concentrating on multiple things and was not able to focus on one area. I need to improve my documentation skills.  We discussed my future plans and what was my vision for my career. I tend to have high expectations as it was pointed out and need to document even the failures. Finally we decided the following tasks for me to persue during the summer 2019. 
+Dr.Park and I had a discussion about tasks that I was assigned and how I executed them. My main problem was that Ikept concentrating on
+multiple things and was not able to focus on one area. I need to improve my documentation skills.  We discussed my future plans and what
+was my vision for my career. I tend to have high expectations as it was pointed out and need to document even the failures. Finally we
+decided the following tasks for me to persue during the summer 2019. 
 
 </pre>
 </body>  
