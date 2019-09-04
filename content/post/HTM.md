@@ -9,7 +9,9 @@ We now have to define and think about two concepts, Learning and intelligence. I
 Intelligence can also be learned. This is what **Jeff Hawkins** discuss about in his boot **On Intelligence**. He argues that truly intelligent systems cannot be built without first understanding the working of a brain, specifically the Neocortex, outtermost part of the brain.
 </body>
   
-![On intelligence](/img/onin.jpg)(https://sananara-aryabhata.netlify.com/post/onint)
+![On intelligence](/img/onin.jpg)
+
+[Review here](https://sananara-aryabhata.netlify.com/post/onint)
 
 <h1>Hierarchical Temporal Memory (HTM)</h1>
 <body>
