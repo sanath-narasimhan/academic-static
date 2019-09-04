@@ -1,12 +1,23 @@
 +++
-title = "Human Data Lab - My goals"
+title = "Human Data Lab - My goals "
 +++
 
 <h1>Human Data Lab</h1>
 <body>
   The lab is run by Dr.Deokgun Park at University of Texas at Arlington. The core area of interest is Artificial General Intelligence(AGI).
   The goals of the lab are explained in [these videos](https://www.youtube.com/playlist?list=PLTM6ZLB6tl32YpFNsj1U53WwKXa1SQ3Bx) .
+  
+  
+<pre>
 
+I have been working in **HDILAB** over the course of Spring 2019. This was my first ever experiencein research work and I quite enjoyed the workflow. Documentation was an alien concpet that I was introduced to which seemed like the missing piece of the puzzel for me to further improve and reflect upon what I have learnt. It had been my life long dream to be developing games at some caliber and I finally took a step into this world learning animation and VR control mapping in Unity3D. I was exposed to the current state of AI and deep learning approaches. I got experience giving a live seminar over **Multi-Layer Perceptron** implementation with **numpy** in **python3**.  I read about many ways of creating virtual environment and how reinforcement learning played a key role in the current approaches.
+
+</pre>
+<pre>
+
+Dr.Park and I had a discussion about tasks that I was assigned and how I executed them. My main problem was that Ikept concentrating on multiple things and was not able to focus on one area. I need to improve my documentation skills.  We discussed my future plans and what was my vision for my career. I tend to have high expectations as it was pointed out and need to document even the failures. Finally we decided the following tasks for me to persue during the summer 2019. 
+
+</pre>
 </body>  
 <h2>My goals</h2>
 
@@ -41,5 +52,6 @@ title = "Human Data Lab - My goals"
   * This is a book being authored by Numenta, an AGI research company co-founded by Jeff hawkins [good read..] (https://numenta.com/resources/biological-and-machine-intelligence/).
   * **On Intelligence** is a book authored by jeff hawkins that gives the idology behind the thinking behind the human brain
 
-</body>   
+</body>  
+[My review of On Intelligence](https://sananara-aryabhata.netlify.com/post/onint)
    
