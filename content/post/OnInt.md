@@ -55,7 +55,9 @@ understand and form complex association of different sensory inputs into a virtu
 their combinations.
 
 ![On intelligence](/img/Capture11.PNG)
+
 >Each system provides a unique referrence point from the grid cells, a combination of these referrence cells gives a fairly accurate representation of current location in the world.
+
 ![On intelligence](/img/Capture10.PNG)
 
 
@@ -63,5 +65,7 @@ By truly understanding the workings of this Cortical Learning algorithm we can i
 and predicting capablities on a system.
 
 Further more he discusses many more interesting examples that give a accurate insight into workings of the brain and help define Intelligence.
-Now that we have an overview of the book we can move on to actually breaking down the Algorithm [here](https://sananara-aryabhata.netlify.com/post/htm)
+Now that we have an overview of the book we can move on to actually breaking down the Algorithm 
+
+[Here](https://sananara-aryabhata.netlify.com/post/htm)
 
