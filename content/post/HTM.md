@@ -9,9 +9,9 @@ We now have to define and think about two concepts, Learning and intelligence. I
 Intelligence can also be learned. This is what **Jeff Hawkins** discuss about in his boot **On Intelligence**. He argues that truly intelligent systems cannot be built without first understanding the working of a brain, specifically the Neocortex, outtermost part of the brain.
 </body>
   
-![On intelligence](/img/onin.jpg)
+![On intelligence](/img/onin.jpg)(https://sananara-aryabhata.netlify.com/post/onint)
 
-<h1>Heirarchical Temporal Memory (HTM)</h1>
+<h1>Hierarchical Temporal Memory (HTM)</h1>
 <body>
 **HTM** is a hypothesis that explains the workings of the **neocortex**, the largest part of the brain and how it can be implemented to build a truly intelligent system. The book dwells upon the idea of intelligence of the human brain and the true working of the neurons. The key is to understand the working of neurons in the outter most layer of the brain, the **Neocortex**. There are about **six columned layers** in the human neocortex, highest in any mammal. The neurons are arranged in a set of column vertically and are connected horizontally across a layer.
 ![On intelligence](/img/column.PNG)
