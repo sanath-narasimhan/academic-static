@@ -8,7 +8,7 @@ title = "Human Data Lab - My goals "
   The goals of the lab are explained in [these videos](https://www.youtube.com/playlist?list=PLTM6ZLB6tl32YpFNsj1U53WwKXa1SQ3Bx) .
   
   
-<pre>
+</b>
 
 >I have been working in **HDILAB** over the course of Spring 2019. This was my first ever experiencein research work and I quite enjoyed
 the workflow. Documentation was an alien concpet that I was introduced to which seemed like the missing piece of the puzzel for me to
@@ -18,15 +18,15 @@ learning approaches. I got experience giving a live seminar over **Multi-Layer P
 **python3**.  I read about many ways of creating virtual environment and how reinforcement learning played a key role in the current
 approaches.
 
-</pre>
-<pre>
+
+</b>
 
 >Dr.Park and I had a discussion about tasks that I was assigned and how I executed them. My main problem was that Ikept concentrating on
 multiple things and was not able to focus on one area. I need to improve my documentation skills.  We discussed my future plans and what
 was my vision for my career. I tend to have high expectations as it was pointed out and need to document even the failures. Finally we
 decided the following tasks for me to persue during the summer 2019. 
 
-</pre>
+
 </body>  
 <h2>My goals</h2>
 
