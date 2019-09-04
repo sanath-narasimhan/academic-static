@@ -23,7 +23,7 @@ experienced the memory directly.
 ![On intelligence](/img/entrohinal.jpg)
 
 The following figure shows how the information of sight is processed in the human brain. The eyes are connected to the temporal lobe of the 
-brain through optic nerves. The information gets processed here along with the spatial information obtained fromthe entrohinal hippocapal
+brain through optic nerves. The information gets processed here along with the spatial information obtained from the entrohinal hippocapal and from the hypothalamus
 region. We can clearly see a hierarchical architecture. At each of the sub-region V1,V2,V4 and IT different levels of abstraction of the 
 input happens to understand the observed spatial-temporal pattern. This helps store sequence of recurring patterns and recall them 
 auto-associatively by having them in an invariant form and in an hierarchy.
