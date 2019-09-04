@@ -45,12 +45,22 @@ A neuron can be in **three states**, **Active**, **Predictive**, and **Passive**
 </body>
 
 <h2> Now lets look at an example </h2>
+<body>
+  Consider an Encoder that is capable of taking letters as input and produces SDRs, we can have a 6 layered column representation of sentences, a Network of neurons. Take the sentence __"boys eat many cakes"__, the following figure shows how the sentence is initially percieved.  
 ![On intelligence](/img/Capture3.PNG)
+  >As the pattern is new, entire column of neurons become active.
+  >Once the pattern is learnt the each word in the sentence gets a unique representation based on the words that occur before and after it.
+  Similarly the sentence __"girls eat many pies"__, notice how the same words **"eat"**, and **"many"** have different representation based on the context they occur in.
 ![On intelligence](/img/Capture4.PNG)
+  Once these two sentences are learnt now if we encounter a new sentence starting with **"eats"** the neurons related to the two unique representations of the word **"many"** are set into predictive mode. This is how the HTM remembers and predicts patterns.
 ![On intelligence](/img/Capture5.PNG)
+  Another example would be when we encounter the sentence __"eats many"__, now the neurons representing **"cakes"**, and **"pies"** are set into predictive mode. 
 ![On intelligence](/img/Capture6.PNG)
-Reading materials:
-https://numenta.com/resources/biological-and-machine-intelligence/
+</body>
+
+>**You can find the textbook guide for understanding and implementing HTM here: https://numenta.com/resources/biological-and-machine-intelligence/**
+
+**Related resources:**
 https://www.ncbi.nlm.nih.gov/pubmed/23354386
 https://www.youtube.com/watch?v=6ufPpZDmPKA&t=22s
 https://ti.arc.nasa.gov/m/events/hawkins/2013-09-17-nasa-jh.pdf
