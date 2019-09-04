@@ -7,7 +7,7 @@ In the recent years the quest for Artificial Intelligence has become wide spread
 The current state of AI, that is the deep Neural Networks, Reinforcement learning,and Machine Learning are pretty impressive intheir performance. But the question is Are they really intelligent? 
 We now have to define and think about two concepts, Learning and intelligence. In my opinion Learning is the process of understanding how to execute a particular task, and Intelligence is the ability to associate different tasks. 
 Intelligence can also be learned. This is what Jeff Hawkins discuss about in his boot On Intelligence. He argues that truly intelligent systems cannot be built without first understanding the working of a brain, specifically the Neocortex, outtermost part of the brain. 
-![On intelligence](/img/onin.jpeg)
+![On intelligence](/img/onin.jpg)
 
 HTM is a hypothesis that explains the workings of the neocortex, the largest part of the brain and how it can be implemented to build a truly intelligent system.The book dwells upon the idea on intelligence and how the human brain functions and the true working of the neurons. The key is to understand the working of neurons in the outter most layer of the brain, the Neocortex. There are about six layers in the human neocortex, highest in any mammal. The neurons are arranged in a set of column vertically and are connected horizontally across a layer. The Temporal algorithm is the key component that uses Sparse Distributed Representation(SDR) of data and Spatial pooling concept. SDR are the main concept that allows us to actually 
 implement the way our brain learns things, usually there are a lot of neurons in the brain but only about 2% are active at any given moment.
