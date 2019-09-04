@@ -61,11 +61,17 @@ A neuron can be in **three states**, **Active**, **Predictive**, and **Passive**
 >**You can find the textbook guide for understanding and implementing HTM here: https://numenta.com/resources/biological-and-machine-intelligence/**
 
 **Related resources:**
-https://www.ncbi.nlm.nih.gov/pubmed/23354386
-https://www.youtube.com/watch?v=6ufPpZDmPKA&t=22s
-https://ti.arc.nasa.gov/m/events/hawkins/2013-09-17-nasa-jh.pdf
-http://www.ldv.ei.tum.de/fileadmin/w00bfa/www/Vorlesungen/Brain_Mind_Cognition/A-On-Intelligence-v2.pdf
-https://numenta.com/neuroscience-research/research-publications/papers/a-framework-for-intelligence-and-cortical-function-based-on-grid-cells-in-the-neocortex/
-https://en.wikipedia.org/wiki/Grid_cell
+
+*https://www.ncbi.nlm.nih.gov/pubmed/23354386
+
+*https://www.youtube.com/watch?v=6ufPpZDmPKA&t=22s
+
+*https://ti.arc.nasa.gov/m/events/hawkins/2013-09-17-nasa-jh.pdf
+
+*http://www.ldv.ei.tum.de/fileadmin/w00bfa/www/Vorlesungen/Brain_Mind_Cognition/A-On-Intelligence-v2.pdf
+
+*https://numenta.com/neuroscience-research/research-publications/papers/a-framework-for-intelligence-and-cortical-function-based-on-grid-cells-in-the-neocortex/
+
+*https://en.wikipedia.org/wiki/Grid_cell
 
 
