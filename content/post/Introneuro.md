@@ -2,6 +2,7 @@
 title="Introduction to Neuro Science"
 +++
 
-<h1>Find the playlist for the seminar videos  here </h1>
+<h1>Find the playlist for the seminar videos  </h1>   [here] ( https://www.youtube.com/watch?v=bDUz3tJB6Lc&list=PLTM6ZLB6tl331ZKL05RTpKEZIk9B5klmf&index=2 ) 
 
-{{< youtube 6A423mxTCQ8&t=23s >}}
+
+
