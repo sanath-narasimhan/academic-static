@@ -6,7 +6,7 @@ title="Introduction to Neuro Science"
 
 [here] ( https://www.youtube.com/watch?v=bDUz3tJB6Lc&list=PLTM6ZLB6tl331ZKL05RTpKEZIk9B5klmf&index=2 ) 
 
-## **Seminar 1 **
+## **Seminar 1**
 <h2>   August 21, 2019 </h2>
 
 <body>
