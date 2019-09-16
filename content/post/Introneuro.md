@@ -14,19 +14,36 @@ title="Introduction to Neuro Science"
 **Dr.Park: _Let's start with our question, this is a question for you guys, can anybody tell me what is the difference between the intelligence and learning?_**
 my question is what is intelligence what is the difference between intelligence versus learning so when you guys answer, try to make a sentence like this "intelligence is something, learning is something" okay.
 
+For Example **AI** and **ML**, if you think about it they are synonymus Its an open ended question.
 
->For Example **AI** and **ML**, if you think about it they are synonymus Its an open ended question.
+>**Paul:** In Reinforcement learning, the NLP algorithm learns to predict the next word from the training examples but does not understand what it is predicting.
 
->**Paul:** In Reinforcement learning the NLP algorithm learns to predict but does not understand what it is predicting.
-
->**Shadek:** Intelligence is built-in knowledge, does not require experience. Learning is from the experience in the environment.
-
->  *Explains his argument with the help of push block and the scenario of bike accident*
+>**Shadek:** Intelligence is built-in knowledge, does not require experience. Learning is from the experience in the environment. Like in case of the visual push block where by observing the reactions within the environment the path to take is learnt,and the scenario of bike accident, when it happens multiple times we learn from mistakes and how to avoid it.
 
 >**Rubel:** Knowledge is gained from learning, its the experience.
 
+>**Aishwarya:** Intelligence is having the ability. Learning is what you can gain from the environment.
 
+>**Sanath:** Intelligence is the ability to learn new things and associate them, learning is the process of knowing how to perform a task in a given environment. If something can learn it does not mean it's intelligent, as intelligence is the ability to learn multiple things.
 
+>**Sanjay:** You can learn something by repeating  it over and over again. It is done by gaining experience. Intelligence is the ability to learn multiple things. In case of babies they have something caleed reflective learning, like smile and cry, but to dance repetation of moves is required.
+
+[PArt one](/img/01.PNG)
+
+**Dr.Park:** Okay you guys are all making good points but when it comes to thinking about intellingence, you guys are thinking in terms of human intelligence, it is eays but we need to think better. 
+>**A fish cannot appreciate water just like humans cannot appreciate air.**
+
+**I think we need to look at the intelligence of Human VS Bee. How many of you think the Bees are intelligent?**
+
+>**Rubel:**  *I am not sure about how bees behave, he does not have enought information, he does not thnik fish are not all that intelligent because they don't learn new things.*
+
+>**Shadek:** I think bees are intelligent.
+
+**Dr.Park: Alright we need to define what is intelligence first, it will clear up any confusion. Given an environment you act reasonably well, then you can say that you are behaving intelligentely. If you act stupid it is not intelligent right.** 
+ 
+[PArt one](/img/01.PNG)
+
+**So we can say that bee is intelligent as it looks for nectar, builds nest and acts to survive.**
 
 </body>
 
