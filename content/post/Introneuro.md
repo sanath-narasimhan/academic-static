@@ -59,7 +59,7 @@ For Example **AI** and **ML**, if you think about it they are synonymus Its an o
 
 **Dr.Park:** Yes association is the new rule formation, so these animals are learning neww things by knowing to associate jumping throught hoops on the master's command. If a crow that has never seen the traffic signal before then it has to learn how to cross it. The lion in the jungle will not jump through the hoop if you show it one, it does not know how to.
 
-**Okay I wil now give a concrete example that might clear up some doubts.""
+**Okay I wil now give a concrete example that might clear up some doubts.**
 
 </body>
 
