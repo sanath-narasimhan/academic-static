@@ -60,8 +60,47 @@ For Example **AI** and **ML**, if you think about it they are synonymus Its an o
 **Dr.Park:** Yes association is the new rule formation, so these animals are learning neww things by knowing to associate jumping throught hoops on the master's command. If a crow that has never seen the traffic signal before then it has to learn how to cross it. The lion in the jungle will not jump through the hoop if you show it one, it does not know how to.
 
 **Okay I wil now give a concrete example that might clear up some doubts.**
+As a mouse it is natural to see food and go towards it, if you see a cat run away. But if you hear the bell what do you do? There is no in-built rule for this.
+**Think of an experiment where one mouse is fed food and another mouse to electric shock after ringing. So the same input gives different responses in these two mice. This is learning.**
+
+Shadek was close to this idea, if he had only thought about it in terms of bee or mouse he would have gotten it. Intelligence is built-in knowledge and learning is aquiring knowledge. If you think about it learning is very expensive. If you are mouse you cannot experiment with the cat, a bee cannot expirement with nectar. Most of the animals hence cannot aquire new rules by learning.
+
+Think about carracing, in smany possible events it dies. There are many which involve dieing but only few result in survival. This is crutial and difficult in animals. If a mouse dies by getting too close to a cat it has added nothing new, its life is over, no other mouse was benifited by its actions. Its actions does not have any way to leave a trace to increase the possibility that mice as a species can keep the genes, it doesn't help other mice to survive.
+
+![img3](/img/03.PNG)
+
+>**Sanjay:** What if another mouse was watching this happen? Does it not learn from observation?
+
+
+**Dr.Park:** If you think about it seriously, its a bad way to learn right. there are suppose there 1000 moves in the scenario and only one , run away is right move, then this mouse has to watch all those moves to learn that it has to run away, it is lucky, old and wise but it cannot transfer this knowledge to others. That is why most animals use hard-coded rules, its easier.
+
+There must be some point where intelligence first appeared right so let's say if we want study intelligence and we study humans to get the idea to build intelligence and look at the human only brain, okay I claim that this is a very stupid way of studying intelligence  let me give you on my argument let us say modern luxury cars that have a very complex system like auditive cruise, ABS hybrid system
+GPS navigation, sound the system memory sit AC and heater and everything, so do you know how many microcontrollers in a modern car can
+anybody guess how many CPUs?
+
+>Imagine it landed in the past, How would the humans of the past understand what it is? **Without bare minimum knowledge you cannot define and implement a function for cars.**
+
+![img4](/img/04.PNG)
+
+**What are minimum parts for a car?**
+
+Engine, axel, stearing?
+
+>**Steam engine car.** 1769 by French inventor Nicolas Cugnot
+
+## No. 1596
+
+![img5](/img/05.jpg)
+
+So even when locating and picking up the eraser involves many combinations of slow and fast paced movement and grabbing action requires comples palm placement, balancing and finger positioning. All components are co-ordinating and its difficult to reverse engineer the actions.
+
+So forget about human brain, lets find minimum parts to implement learning. We need to go back to an common ancestor of mammals and reptiles.
 
 </body>
+
+## **Seminar 2**
+<h2>   August 28, 2019 </h2>
+
 
 
 
