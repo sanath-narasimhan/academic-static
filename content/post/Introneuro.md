@@ -28,7 +28,7 @@ For Example **AI** and **ML**, if you think about it they are synonymus Its an o
 
 >**Sanjay:** You can learn something by repeating  it over and over again. It is done by gaining experience. Intelligence is the ability to learn multiple things. In case of babies they have something caleed reflective learning, like smile and cry, but to dance repetation of moves is required.
 
-[PArt one](/img/01.PNG)
+[img1](/img/01.PNG)
 
 **Dr.Park:** Okay you guys are all making good points but when it comes to thinking about intellingence, you guys are thinking in terms of human intelligence, it is eays but we need to think better. 
 >**A fish cannot appreciate water just like humans cannot appreciate air.**
@@ -41,7 +41,7 @@ For Example **AI** and **ML**, if you think about it they are synonymus Its an o
 
 **Dr.Park: Alright we need to define what is intelligence first, it will clear up any confusion. Given an environment you act reasonably well, then you can say that you are behaving intelligentely. If you act stupid it is not intelligent right.** 
  
-[PArt one](/img/01.PNG)
+[img2](/img/01.PNG)
 
 **So we can say that bee is intelligent as it looks for nectar, builds nest and acts to survive.**
 
