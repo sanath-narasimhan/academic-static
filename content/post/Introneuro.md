@@ -41,7 +41,7 @@ For Example **AI** and **ML**, if you think about it they are synonymus Its an o
 
 **Dr.Park: Alright we need to define what is intelligence first, it will clear up any confusion. Given an environment you act reasonably well, then you can say that you are behaving intelligentely. If you act stupid it is not intelligent right.** 
  
-![img2](/img/01.PNG)
+![img2](/img/02.PNG)
 
 **So we can say that bee is intelligent as it looks for nectar, builds nest and acts to survive.**
 
