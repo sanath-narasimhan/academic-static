@@ -45,6 +45,8 @@ For Example **AI** and **ML**, if you think about it they are synonymus Its an o
 
 **So we can say that bee is intelligent as it looks for nectar, builds nest and acts to survive.**
 
+>Every species is intelligence and they behave differently in different environment. They could be behaving stupidly in the given environment but they still might have the capablity to learn to behave reasonably. That is intelligence right.  
+
 </body>
 
 
