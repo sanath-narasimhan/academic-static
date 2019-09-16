@@ -33,7 +33,7 @@ For Example **AI** and **ML**, if you think about it they are synonymus Its an o
 **Dr.Park:** Okay you guys are all making good points but when it comes to thinking about intellingence, you guys are thinking in terms of human intelligence, it is eays but we need to think better. 
 >**A fish cannot appreciate water just like humans cannot appreciate air.**
 
-**I think we need to look at the intelligence of Human VS Bee. How many of you think the Bees are intelligent?**
+**I think we need to look at the intelligence of Human VS Bee. How many of you think the Bees are intelligent? and can it learn?**
 
 >**Rubel:**  *I am not sure about how bees behave, he does not have enought information, he does not thnik fish are not all that intelligent because they don't learn new things.*
 
@@ -45,7 +45,21 @@ For Example **AI** and **ML**, if you think about it they are synonymus Its an o
 
 **So we can say that bee is intelligent as it looks for nectar, builds nest and acts to survive.**
 
->Every species is intelligence and they behave differently in different environment. They could be behaving stupidly in the given environment but they still might have the capablity to learn to behave reasonably. That is intelligence right.  
+>**Aishwarya:**Every species is intelligence and they behave differently in different environment. They could be behaving stupidly in the given environment but they still might have the capablity to learn to behave reasonably. That is intelligence right.  
+
+**Dr.Park:** Okay everyone agrees bees are intellinget. are they learning new things?.
+
+>**Sanath:** It does not learn new things it just finds various different ways to do the task.
+
+>**Sanjay:** Ya when flowers run out of necter then bees learn to find new flowers, so they are learning.
+
+>**Aishwarya:** I have also heard of crows the road based on traffic signal to take food off the road.
+
+>**Paul:** I thnik when an animal learns to jump hoop by the training of the ring master, its aquiring new skill.
+
+**Dr.Park:** Yes association is the new rule formation, so these animals are learning neww things by knowing to associate jumping throught hoops on the master's command. If a crow that has never seen the traffic signal before then it has to learn how to cross it. The lion in the jungle will not jump through the hoop if you show it one, it does not know how to.
+
+**Okay I wil now give a concrete example that might clear up some doubts.""
 
 </body>
 
