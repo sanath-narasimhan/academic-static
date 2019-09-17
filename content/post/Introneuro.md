@@ -78,7 +78,7 @@ There must be some point where intelligence first appeared right so let's say if
 GPS navigation, sound the system memory sit AC and heater and everything, so do you know how many microcontrollers in a modern car can
 anybody guess how many CPUs?
 
->Imagine it landed in the past, How would the humans of the past understand what it is? **Without bare minimum knowledge you cannot define and implement a function for cars.**
+>There are about 50-100 CPUsin a modern car. Imagine it landed in the past, How would the humans of the past understand what it is? **Without bare minimum knowledge you cannot define and implement a function for cars.**
 
 ![img4](/img/04.PNG)
 
@@ -101,6 +101,123 @@ So forget about human brain, lets find minimum parts to implement learning. We n
 ## **Seminar 2**
 <h2>   August 28, 2019 </h2>
 
+<body>
+
+**Dr.Park: so do you guys remember what we did talk about last week? I sure can you give me some idea.** 
+
+>**Aishwarya:** the last part the gist of it was we were discussing what is the minimum machinery we need to for intelligence and we left off saying we will look at the part in evolution where the mammals and reptiles have a common ancestor 
+
+**Dr.Park: okay and do you remember the intelligence vs learning question?** 
+
+>**Aishwarya:**	yes we concluded that intelligence is to do with learning new things but also associating the new things to different contexts.
+
+**Dr.Park:** that is slightly different what I think can you say it again,
+
+>**Aishwarya:** intelligence is when you are able to associate the things that you learnet.
+
+**Dr.Park: anyone else remember the difference between intelligence and learning?**
+
+>**Aishwarya:** the inbuilt system that we have versus...
+
+>**Rubel:** built-in intelligences attributes...
+
+**Dr.Park** is learning built-in?
+
+>**Sanjay:** if we try to associate one skill to another thing, skill let say, then that is intelligence. 
+
+>**Sanath:** intelligence is the ability to associate new things to make new rules, for example the lion knows to jump and its knows how to feel fear, the rigmaster trains the lion by associating these together.
+
+>**Aishwarya:** is it about making new rules?
+
+**Dr.Park:** What is making new rule? learning or intelligence?
+
+>**Shadek:** I think learning is making new rules and intelligence is built-in.
+
+**Dr.Park: Oky you guys are confused. Let us concretely define intelligence and learning to get better idea.**
+
+>if we think about ven-diagram of intelligence and learning  ![img6](/img/05.PNG)
+
+**There can be intelligence without learning, but no learning without intelligence.**
+>Example of intelligence without learning are the bees.
 
 
+>Intelligence is a **rule** that works for you well-being, it is also a rule and can be learnt.
+>Learning is ability to **make** new rules.
 
+![img7](/img/06.PNG)
+
+>Intelligence is like a program to choose other rules based on the situation, for well-being, so it makes intelligence a rule as rules are nothing but programs, a bunch of instructions.
+
+>**Rubel:** So surviving is an inbuilt intelligence?
+
+**Dr.Park:** yes it is.
+
+>**Rubel:** Then how can you explain the case of suicide.
+
+>**Sanath:** is it another form of intelligence?
+
+**Dr.Park:** It can be built-in like in case of the bee, after it stings it dies. Well there are two scenarios that are possible, one is sacrifice, another is failure. These are edge cases.
+>In case of sacrifice, you are working for the survival of species, like **Bruce willis in Armageddon** did. Here you are protecting your genes.
+>Other scenario is you get so stressed out you die, like for example a lion that cannot hunt in the jungle will die. You wanted to live well but you failed. 
+
+**Okay now we can think about how many animals actually can learn. Which do you think is larger, animals that have intelligence with learning or animals that have intelligence without learning?**
+
+*Everyone thinks its animals that have intelligence without learning*
+
+**Why is it so?, If you think about it, when you encounter a tiger you do not have time to think about your action to take, the running has to be built-in. Learning is expensive.**
+
+
+>**Rubel:** If we consider evolution, did past species learn to survive? It wasn't always built-in right? Isn't it learnt?
+
+**Dr.Park:** Can you give me a concrete example?
+
+>**Rubel:** Maybe early micro-species? Bacteria and Fungi.
+
+**Dr.Park:** How about ameoba or plankton that whales eat? They are one celled structure. Do you think they have intelligence or not? It's a very good question, as it will give us a position to fix our defination, so plankton and ameoba live well in the world, they have enough rules to do so. Multiply a lot and find food are their rules. So we can conclude intelligence right? But it does not make sense.
+So we need to re-define intelligence.
+
+![img8](/img/07.PNG)
+
+>**Lets say there creatures without intelligence like ameoba and plankton, then to make this defination more resonable? How can we implement a rule?**
+
+>If you consider Protiens and enzymes, high school biology, DNA is blueprint for species. So these protiens and enzymes are building blocks and makes up the parts of the species. So its a simple rule, if there is enough food then split into two, use energy to operate cutting mechanism. This is the rule implemented by DNA.
+
+**Can anybody give me an example of how to implement a rule? Like building a program to run the motor.**
+
+>**Aishwarya:** The links formed int he brain.
+
+>**>Sanath:** Like a fly to flap its wings, it should know when and how to flap the wings.
+
+**Dr.Park:** Yes the wings are controlled by some circuitry that makes decissions and sensory inputs to determiine the decissions.
+
+>**So we can define intelligence as a system now where there has to be some sensory input, a processing region and actuator, something to reflect the actions with. This is the minimum parts to implement intelligence.**
+
+
+![img9](/img/08.PNG)
+
+
+>There are rules for processor that modifies the actuator based on sensory input for your well-being.
+
+**Dr.Park:**Does ameoba have a sensor?
+
+>**Sanath:** Its whole border is a sensor.
+
+**Dr.Park:** This is at a protien level, I mean there should be electrical circuit.
+
+>**Sanath:** Technically there are ion flow in carbon-based life form so its a electrical circuit right?
+
+**Dr.Park:** It is more of a battrey, a system needs to have connections and a circuit at a higher level.
+
+>**Sanjay:** Can plants be considered intelligence?
+
+**Dr.Park:** Do they have electrical circuit? I don't think so. It has sensor and an actuator but no electrical circuit for processing.
+
+>**Sanath:** So can IoT systems be considered intelligent?
+
+**Dr.Park:** Yes it satisfies the conditions. But it is hard coded intelligence, it cannot learn new things. All smart phones and systems are intelligent nowadays.
+
+
+</body>
+
+## **Seminar 3**
+<h2>  September 4, 2019 </h2>
