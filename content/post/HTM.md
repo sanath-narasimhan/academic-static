@@ -4,9 +4,9 @@ title = "The quest for Artificial General Intelligence."
 
 <body>
 In the recent years the quest for Artificial Intelligence has become wide spread and everyone is getting on the band wangon. 
-The current state of AI, that is the deep Neural Networks, Reinforcement learning,and Machine Learning are pretty impressive intheir performance. But the question is Are they really intelligent? 
+The current state of AI, that is the deep Neural Networks, Reinforcement learning,and Machine Learning are pretty impressive in their performance. But the question is are they really intelligent? 
 We now have to define and think about two concepts, Learning and intelligence. In my opinion Learning is the process of understanding how to execute a particular task, and Intelligence is the ability to associate different tasks. 
-Intelligence can also be learned. This is what **Jeff Hawkins** discuss about in his boot **On Intelligence**. He argues that truly intelligent systems cannot be built without first understanding the working of a brain, specifically the Neocortex, outtermost part of the brain.
+Intelligence can also be learned. This is what **Jeff Hawkins** discuss about in his book **On Intelligence**. He argues that truly intelligent systems cannot be built without first understanding the working of a brain, specifically the Neocortex, outtermost part of the brain.
 </body>
   
 ![On intelligence](/img/onin.jpg)
@@ -15,7 +15,7 @@ Intelligence can also be learned. This is what **Jeff Hawkins** discuss about in
 
 <h1>Hierarchical Temporal Memory (HTM)</h1>
 <body>
-**HTM** is a hypothesis that explains the workings of the **neocortex**, the largest part of the brain and how it can be implemented to build a truly intelligent system. The book dwells upon the idea of intelligence of the human brain and the true working of the neurons. The key is to understand the working of neurons in the outter most layer of the brain, the **Neocortex**. There are about **six columned layers** in the human neocortex, highest in any mammal. The neurons are arranged in a set of column vertically and are connected horizontally across a layer.
+**HTM** is a hypothesis that explains the workings of the **neocortex**, the largest part of the brain and how it can be implemented to build a truly intelligent system. The book dwells upon the idea of intelligence of the human brain and the true working of the neurons. The key is to understand the working of neurons in the outermost layer of the brain, the **Neocortex**. There are about **six columned layers** in the human neocortex, highest in any mammal. The neurons are arranged in a set of column vertically and are connected horizontally across a layer.
 ![On intelligence](/img/column.PNG)
 
 ![On intelligence](/img/Cross.PNG)
