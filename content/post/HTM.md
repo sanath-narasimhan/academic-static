@@ -4,9 +4,9 @@ title = "The quest for Artificial General Intelligence."
 
 <body>
 In the recent years the quest for Artificial Intelligence has become wide spread and everyone is getting on the band wangon. 
-The current state of AI, that is the deep Neural Networks, Reinforcement learning,and Machine Learning are pretty impressive in their performance. But the question is are they really intelligent? 
+The current state of AI, that is the deep Neural Networks, Reinforcement learning, and Machine Learning are pretty impressive in their performance. But the question is are they really intelligent? 
 We now have to define and think about two concepts, Learning and intelligence. In my opinion Learning is the process of understanding how to execute a particular task, and Intelligence is the ability to associate different tasks. 
-Intelligence can also be learned. This is what **Jeff Hawkins** discuss about in his book **On Intelligence**. He argues that truly intelligent systems cannot be built without first understanding the working of a brain, specifically the Neocortex, outtermost part of the brain.
+Intelligence can also be learned. This is what **Jeff Hawkins** discuss about in his book **On Intelligence**. He argues that truly intelligent systems cannot be built without first understanding the working of a brain, specifically the Neocortex, outermost part of the brain.
 </body>
   
 ![On intelligence](/img/onin.jpg)
@@ -50,13 +50,21 @@ A neuron can be in **three states**, **Active**, **Predictive**, and **Passive**
 <body>
   Consider an Encoder that is capable of taking letters as input and produces SDRs, we can have a 6 layered column representation of sentences, a Network of neurons. Take the sentence __"boys eat many cakes"__, the following figure shows how the sentence is initially percieved.  
 ![On intelligence](/img/Capture3.PNG)
+  
   >As the pattern is new, entire column of neurons become active.
-  >Once the pattern is learnt the each word in the sentence gets a unique representation based on the words that occur before and after it.
+  
+  >Once the pattern is learnt, then each word in the sentence gets a unique representation based on the words that occur before and after it.
+  
   Similarly the sentence __"girls eat many pies"__, notice how the same words **"eat"**, and **"many"** have different representation based on the context they occur in.
+  
 ![On intelligence](/img/Capture4.PNG)
+
   Once these two sentences are learnt now if we encounter a new sentence starting with **"eats"** the neurons related to the two unique representations of the word **"many"** are set into predictive mode. This is how the HTM remembers and predicts patterns.
+  
 ![On intelligence](/img/Capture5.PNG)
+
   Another example would be when we encounter the sentence __"eats many"__, now the neurons representing **"cakes"**, and **"pies"** are set into predictive mode. 
+  
 ![On intelligence](/img/Capture6.PNG)
 </body>
 
