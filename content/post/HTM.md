@@ -20,7 +20,7 @@ Intelligence can also be learned. This is what **Jeff Hawkins** discuss about in
 
 ![On intelligence](/img/Cross.PNG)
 
-He proposes that the neocortex at its core is running a __**simple algorithm**__ at every level, from the neuron to the top of the six layers to recognize, process and remember patterns over time. This is the **Cortical Learning Algorithm(CLA)** also known as **Temporal Algorithm**. The Temporal algorithm has a key component that is the use of **Sparse Distributed Representation(SDR)** of data. SDR are what seperates this approach from its predecessors allowing us to actually implement learning the way our brain does, usually there are a lot of neurons in the brain but only about __**2%**__ are active at any given moment. This is the reason we choose a sparse representation of data giving us the advantage of storing data in a truly **invarient form**, making it easy to pick up and associate similar patterns and be able to differentiate between them **auto-associatively**. The core rule of learning is observing __**sequence of patterns**__ and __**associating their occurrence over time**__. The input that reaches the neocortex activates very few neurons at every layer, hence the representation is called sparse, if you think of the input as a binary array vector, with each bit representing a neuron being **active __(1)__** or **passive __(0)__**. 
+He proposes that the neocortex at its core is running a __**simple algorithm**__ at every level, from the neuron to the top of the six layers to recognize, process and remember patterns over time. This is the **Cortical Learning Algorithm(CLA)** also known as **Temporal Algorithm**. The Temporal algorithm has a key component that is the use of **Sparse Distributed Representation(SDR)** of data. SDR are what seperates this approach from its predecessors allowing us to actually implement learning the way our brain does, usually there are a lot of neurons in the brain but only about __**2%**__ are active at any given moment. This is the reason we choose a sparse representation of data giving us the advantage of storing data in a truly **invariant form**, making it easy to pick up and associate similar patterns and be able to differentiate between them **auto-associatively**. The core rule of learning is observing __**sequence of patterns**__ and __**associating their occurrence over time**__. The input that reaches the neocortex activates very few neurons at every layer, hence the representation is called sparse, if you think of the input as a binary array vector, with each bit representing a neuron being **active __(1)__** or **passive __(0)__**. 
 ![On intelligence](/img/SDR.PNG)
 
 ![On intelligence](/img/SDRP.PNG)
@@ -32,7 +32,7 @@ He proposes that the neocortex at its core is running a __**simple algorithm**__
 
 >**Observing and following the working to the neuron gives us an idea of how SDR is used to predict the occurrence of patterns.Essentially these rules are applied at every level in the neocortex.**
 
-A neuron can be in **three states**, **Active**, **Predictive**, and **Passive** state. A neuron has __**proximal connections** that are directly connected to a feed-forward input, **distal dendritic connections** giving it the context signals and **distal dendritic axion connections** that give  feedbackinputs__. The connection between neurons occur through connections called **synapsis**. 
+A neuron can be in **three states**, **Active**, **Predictive**, and **Passive** state. A neuron has __**proximal connections** that are directly connected to a feed-forward input, **distal dendritic connections** giving it the context signals and **distal dendritic axion connections** that give  feedback inputs__. The connection between neurons occur through connections called **synapsis**. 
 
 >When a new pattern is observer, random neurons in a column are selected to represent the pattern. This is the active state of the neuron, when a feed-forward input causes it to fire. 
 
@@ -46,9 +46,9 @@ A neuron can be in **three states**, **Active**, **Predictive**, and **Passive**
 ![On intelligence](/img/Capture2.PNG)
 </body>
 
-<h2> Now lets look at an example </h2>
+<h2> Now let's look at an example </h2>
 <body>
-  Consider an Encoder that is capable of taking letters as input and produces SDRs, we can have a 6 layered column representation of sentences, a Network of neurons. Take the sentence __"boys eat many cakes"__, the following figure shows how the sentence is initially percieved.  
+  Consider an Encoder that is capable of taking letters as input and produces SDRs, we can have a 6 layered column representation of sentences, a Network of neurons. Take the sentence __"boys eat many cakes"__, the following figure shows how the sentence is initially perceived.  
 ![On intelligence](/img/Capture3.PNG)
   
 >As the pattern is new, entire column of neurons become active.
