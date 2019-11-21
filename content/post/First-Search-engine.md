@@ -117,7 +117,7 @@ The custom Inverted Index yields results dractically faster
 
 1. Implemented my own Inverted index from scratch using numpy and pandas.
 
-2. Created A way to quickly retrive the posting lists for similarity calculation.
+2. Created A way to quickly retrieve the posting lists for similarity calculation.
 
 3. Improving efficiency by dropping words that appear too many times from the vocabulary.
 
