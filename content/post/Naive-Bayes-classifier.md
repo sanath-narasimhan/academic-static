@@ -6,7 +6,7 @@ title="Multinomial Naive Bayes Classification"
 A classifier is an algorithm that differentiates similar objects based on some features. Naive Bayes is one of the more popular classifiers 
 when it comes to text classification as it has been successfully applied to many domains, particularly Natural Language Processing(NLP).
 We have about **836** different classes in the dataset and we can see that this will be a difficult 
-task to achieve as there are large number of classes and we need lots of good features to be select inorder to justify and understand each
+task to achieve as there are large number of classes and we need lots of good features to be select in order to justify and understand each
 class.
 
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
@@ -19,14 +19,14 @@ class using Bayes theorem, and the classes with the highest probability will be 
 In our dataset the **condition** column that represents the medical condition a review is related, to is the class which we will try to predict.
 
 We have already preprocessed the reviews in Part 1 while building our search engine.
-Inorder to make the iterative process of tuning the algorithm we split the entire dataset into train, validation and test. Train consists 50% of the dataset, validation and test each have 25% of the remaining dataset.
+In order to make the iterative process of tuning the algorithm we split the entire dataset into train, validation and test. Train consists 50% of the dataset, validation and test each have 25% of the remaining dataset.
 
-Use the exsisting code from part 1 to generate an Inverted Index vocabulary on the training set.
+Use the existing code from part 1 to generate an Inverted Index vocabulary on the training set.
 
 $$ P(A \mid B) = \frac{P(B \mid A) \, P(A)}{P(B)} $$
 </body>
 
-<h2>Steps to calculating the prior probablities:</h2>
+<h2>Steps to calculating the prior probabilities:</h2>
 <body>
 1. Create a temporary python **dictionary** which stores the list of all documents that occur in each class, all unique words from the vocabulary in each class and the count of total number of words in each class.
 <pre>
@@ -37,12 +37,12 @@ temp_class_dict = { class-1 : [[review-1, review-2,.......,review-n],
                       .
                       . }
 </pre>
-2. Create the **dictionary** to store the prior probablities of each class by
+2. Create the **dictionary** to store the prior probabilities of each class by
 <p>
   P(class) = Number of reviews within the class / Total number of training set.
 </p>
   
-3. Create an inner dictionary for each class with words that occur within the class as keys and store the number for times the word occured within all reviews in the class and the total number of reviews in which it occured within the class.
+3. Create an inner dictionary for each class with words that occur within the class as keys and store the number for times the word occurred within all reviews in the class and the total number of reviews in which it occured within the class.
 <pre>
 naive_class_dict = { class : [P(class), count_total_words, count_unique_words,
                               {word-1 : [count_total_occurence, count_review_occurrence]
@@ -57,7 +57,7 @@ naive_class_dict = { class : [P(class), count_total_words, count_unique_words,
 
 <h4>Calculating probablity of a given review belonging to a class:</h4>
 
-Consider the below example, we will see how to use the priop probablities to calculate the probablity of this review belonging to 
+Consider the below example, we will see how to use the priop probabilities to calculate the probablity of this review belonging to 
 class **Urinary Tract Infection**.
 
 <pre>
@@ -83,10 +83,10 @@ P(class) = number of reviews in the class / total number of reviews
 
 * probablity of a word w1 occuring in a class
 
-* p(w1 | clas) = (number of times w1 occurs in class + alpha) / (total number of words in class + total number of vords in the vocabulary)
+* p(w1 | class) = (number of times w1 occurs in class + alpha) / (total number of words in class + total number of words in the vocabulary)
 
 * Here aplha is the smoothing factor which helps overcome problems of when a word in the query does not occur within a class.
-This hyperparameter comes handy when trying to optimize the classificaation, that is increase the accuracy.
+This hyperparameter comes handy when trying to optimize the classification, that is increase the accuracy.
 
 <pre>
 P(Urinary Tract Infection) = 0.008207509918583007
@@ -100,7 +100,7 @@ P( medication | Urinary Tract Infection ) = (265 + 1) / (28831 + 32622) =  -9.66
 <body>
 * Optimizing the algorithm was a bit challenging. Created a custom list stop words that are dataset specific. As the text we analyse are reviews the features are not all that unique between classes.
   
-* Choosing the alpha value was a decission I took to improver the accuracy of the classifier. Generally alpha is assumed to be 1.
+* Choosing the alpha value was a decision I took to improve the accuracy of the classifier. Generally alpha is assumed to be 1.
 
 **Tested on random sample of 30000 reviews of the validation set**
 
@@ -119,12 +119,12 @@ P( medication | Urinary Tract Infection ) = (265 + 1) / (28831 + 32622) =  -9.66
 1. Developed the classifier algorithm in numpy.
 
 
-2. Smoothing hyperparameter optimized to 0.0000001 insted of default value 1.
+2. Smoothing hyperparameter optimized to 0.0000001 instead of default value 1.
 
 
 3. Created custom test, train, validation splitter which ensures even distribution of reviews  based on the medical condition it is associated with.
 
-<h6>Referrences:</h6>
+<h6>References:</h6>
 
 * (https://towardsdatascience.com/multinomial-naive-bayes-classifier-for-text-analysis-python-8dd6825ece67)
 * (https://medium.com/syncedreview/applying-multinomial-naive-bayes-to-nlp-problems-a-practical-explanation-4f5271768ebf)
