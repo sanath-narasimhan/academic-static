@@ -10,8 +10,8 @@ title = "Human Data Lab - My goals "
   
 </b>
 
->I have been working in **HDILAB** over the course of Spring 2019. This was my first ever experiencein research work and I quite enjoyed
-the workflow. Documentation was an alien concpet that I was introduced to which seemed like the missing piece of the puzzel for me to
+>I have been working in **HDILAB** over the course of Spring 2019. This was my first ever experience in research work and I quite enjoyed
+the workflow. Documentation was an alien concept that I was introduced to which seemed like the missing piece of the puzzle for me to
 further improve and reflect upon what I have learnt. It had been my life long dream to be developing games at some caliber and I finally
 took a step into this world learning animation and VR control mapping in Unity3D. I was exposed to the current state of AI and deep
 learning approaches. I got experience giving a live seminar over **Multi-Layer Perceptron** implementation with **numpy** in 
@@ -21,7 +21,7 @@ approaches.
 
 </b>
 
->Dr.Park and I had a discussion about tasks that I was assigned and how I executed them. My main problem was that Ikept concentrating on
+>Dr.Park and I had a discussion about tasks that I was assigned and how I executed them. My main problem was that I kept concentrating on
 multiple things and was not able to focus on one area. I need to improve my documentation skills.  We discussed my future plans and what
 was my vision for my career. I tend to have high expectations as it was pointed out and need to document even the failures. Finally we
 decided the following tasks for me to persue during the summer 2019. 
@@ -46,15 +46,15 @@ decided the following tasks for me to persue during the summer 2019.
    Marching cubes algorithm is a handy tool for creating various terraines. This can help build a robust environment that is auto-generative.
    Generative adversarial Networks come handy when you have to replicate a real-world 3D object in the game.
    The idea is to make 3D simulations that have parameters that can be fed into an AI algorithm and be controlled to play the game. 
-   Additional feature would be giving access to us to play and see what the AI wouls see, a first or third person view using a Virtual Reality headset.
+   Additional feature would be giving access to us to play and see what the AI would see, a first or third person view using a Virtual Reality headset.
 
 </body>   
 <h3> Temporal Memory Algorithm</h3>
 
 <body>
-   Hierarchical Temporal Memory is a hypothesis by Jeff Hawkins which is based on the working of the neocortex, the outter most part of the human brain
+   Hierarchical Temporal Memory is a hypothesis by Jeff Hawkins which is based on the working of the neocortex, the outermost part of the human brain
    This theoritical framework encapsulates the essence of intelligence and is a new approach to building truly intelligent machines.
-   One of the key factors for the working of this algorithm is Sparse Drstributed representation (SDR) which, is proposed and the way our brain 
+   One of the key factors for the working of this algorithm is Sparse Distributed representation (SDR) which, is proposed and the way our brain 
    stores information. The other concept is spatial pooling, which can be simply put as neurons that fire together work together.
    My goal is to understand the algorithm completely and implement it in a simple use-case, prediction of charecters in a sentence. 
   
