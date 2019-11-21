@@ -10,7 +10,7 @@ This is in  _**csv**_  format so we use **pandas** dataframe to load it into pyt
 </body>
 <h2>**Data Preprocessing:**</h2>
 To make things easy we are going to match search with only the reviews available.The first challenge we face is data preprocessing.
-In our raw data set (test and train data combine) there are about **215,000** records. Upon inspection there are unsueable rows with 
+In our raw data set (test and train data combine) there are about **215,000** records. Upon inspection there are unsuable rows with 
 incomplete "condition" and "Drug name" columns. After dropping those we are left with **213,892** rows.
 
 The reviews contain some html codes that are left as is and need to be converted to utf-8 encoded string with **htlm** library's 
@@ -22,7 +22,7 @@ The **nltk** library is one of the best and easiest for natural language process
 **<h2>Creating Vocabulary:</h2>**
 <body>We use the inverted index technique which is popular in search engines nowadays. It is very fast as we only calculate similarity for top few reviews.
 This is a crucial step, here we traverse through all the preprocessed reviews in our dataset to find unique words in the entire pool. For this we
-use a python __dictionary__ as the use hash indexing which is fast. The **keys** of this dictionary are the words. The **value** consists of a _list_, whose first element is the **document frequency** of that word _(number of reviews the word occurs in)_. The second element of this _list_ is another _dictionay_ where **keys** are **ID's** of reviews in which a word occured, **values** are a _list_ with the index position(s)
+use a python __dictionary__ as the use hash indexing which is fast. The **keys** of this dictionary are the words. The **value** consists of a _list_, whose first element is the **document frequency** of that word _(number of reviews the word occurs in)_. The second element of this _list_ is another _dictionay_ where **keys** are **ID's** of reviews in which a word occurred, **values** are a _list_ with the index position(s)
 of the word within the review.
 Using this we can now calculate the weights of each word in every review to create posting list for all words. For this we use the **tf-idf** [term frequency-Inverted document frequency](https://medium.freecodecamp.org/how-to-process-textual-data-using-tf-idf-in-python-cd2bbc0a94a3)
 The third element in the _list_ is the posting list for every word.
@@ -64,7 +64,7 @@ The third element in the _list_ is the posting list for every word.
 
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
-Finally we use the input box we created in our application's search page to retrive user search query and make it undergo the same 
+Finally, we use the input box we created in our application's search page to retrieve user search query and make it undergo the same 
 pre-processing as our reviews, converting to lower case, stop word removal and lemmatization.
 We calculate the weights of words in the query using only term frequency. Now we retrieve the **top 10** reviews from the posting lists of each word in the search query. 
 If a review appears in the top-10 elements of every query word, calculate cosine similarity score. 
@@ -82,16 +82,16 @@ In the above equation, first part has query words whose top-k elements contain r
 
 $$ \\overline{sim(q,r)} = \\sum_{t\\in q} w\_{t,q} \\times \\overline{w\_{t,r}}.$$
 
-* We choose k as 20, this acts as a hyperparameter forthe search. Set k to be 20 as trial and error shows that this is optimal value.
+* We choose k as 20, this acts as a hyperparameter for the search. Set k to be 20 as trial and error shows that this is optimal value.
 
-* Let query be "My stomach hurts", After preprocessing the the vector representation will be ['stomach','hurt']
+* Let query be "My stomach hurts", After preprocessing the vector representation will be ['stomach','hurt']
 
 * Below we show how to algorithm calculate similarity of query.
 <pre>
   word-weight-query = number of times word appears in the query / number of words in query
 
 
-  1. retrive top 20 of posting list for each word in query
+  1. retrieve top 20 of posting list for each word in query
   2. find the list of all reviews. 
   3. for every review:
   4.   for every word:
@@ -109,9 +109,9 @@ $$ \\overline{sim(q,r)} = \\sum_{t\\in q} w\_{t,q} \\times \\overline{w\_{t,r}}.
 
 <h3>Inverted Index vs Term Document Matrix</h3>
 The term document matrix was generated with gensim library
-* The retrive time for a search result was abot 10 seconds.
-The custom Inverted Index yields results dractically faster
-* The query retrive time was about 0.05 seconds
+* The retrieve time for a search result was abot 10 seconds.
+The custom Inverted Index yields results drastically faster
+* The query retrieve time was about 0.05 seconds
 
 <h4> Contributions: </h4>
 
