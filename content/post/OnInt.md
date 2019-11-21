@@ -34,7 +34,7 @@ auto-associatively by having them in an invariant form and in an hierarchy.
 
 ![On intelligence](/img/bm.PNG)
 
-**HTM** is a hypothesis that explains the workings of the **neocortex**, the largest part of the brain and how it can be implemented 
+**HTM** is a hypothesis that explains the working of the **neocortex**, the largest part of the brain and how it can be implemented 
 to build a truly intelligent system. The book dwells upon the idea of intelligence of the human brain and the true working of the neurons.
 The key is to understand the working of neurons in the outermost layer of the brain, the **Neocortex**. There are about **six columned 
 layers** in the human neocortex, highest in any mammal. The neurons are arranged in a set of column vertically and are connected 
