@@ -30,7 +30,7 @@ auto-associatively by having them in an invariant form and in an hierarchy.
 
 ![On intelligence](/img/vc.PNG)
 
->Baddeley's Model of Working Memory is a model of human memory proposed by Alan Baddeley and Graham Hitch in 1974, in an attempt to present a more accurate model of primary memory. Working memory splits primary memory into multiple components, rather than considering it to be a single, unified construct. Thisis the main model that first intruduced the idea of hierarchy in the memory formation and recall.
+>Baddeley's Model of Working Memory is a model of human memory proposed by Alan Baddeley and Graham Hitch in 1974, in an attempt to present a more accurate model of primary memory. Working memory splits primary memory into multiple components, rather than considering it to be a single, unified construct. This is the main model that first intruduced the idea of hierarchy in the memory formation and recall.
 
 ![On intelligence](/img/bm.PNG)
 
@@ -61,10 +61,10 @@ their combinations.
 ![On intelligence](/img/Capture10.PNG)
 
 
-By truly understanding the workings of this Cortical Learning algorithm we can implement it to have a brain like learning, remembering 
-and predicting capablities on a system.
+By truly understanding the working of this Cortical Learning algorithm we can implement it to have a brain like learning, remembering 
+and predicting capabilities on a system.
 
-Further more he discusses many more interesting examples that give a accurate insight into workings of the brain and help define Intelligence.
+Further more he discusses many more interesting examples that give an accurate insight into the brain's working and helps define Intelligence.
 Now that we have an overview of the book we can move on to actually breaking down the Algorithm 
 
 [Here](https://sananara-aryabhata.netlify.com/post/htm)
