@@ -37,15 +37,15 @@ Content-Based recommendation is a better fit for our dataset. In this technique 
 
 <h3> Challenges faced </h3>
 
-1. As the dataset lacks the required content like user history we need to get creative with the algorithm. Used inly current selected item for recommendation insted of history of viewed objects.
+1. As the dataset lacks the required content like user history we need to get creative with the algorithm. Used only current selected item for recommendation instead of history of viewed objects.
 
-2. Cannot use any standart techniques to improve content-based recommendations. Usedthe classof items toensure quality of recommendation. 
+2. Cannot use any standard techniques to improve content-based recommendations. Used the class of items to ensure quality of recommendation. 
 
 <h4> Contributions </h4>
 
 1. Implemented psudo Content-Based recommendation system with the already created Inverted Index and similarity matrix.
 
-2. Using top 50 results fromthe similarity algorithm provides better recommendations.
+2. Using top 50 results from the similarity algorithm provides better recommendations.
 
 <h5> Referrences: </h5>
 
