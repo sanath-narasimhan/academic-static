@@ -12,7 +12,7 @@ title = "Human Data Lab - My goals "
 
 >I have been working in **HDILAB** over the course of Spring 2019. This was my first ever experience in research work and I quite enjoyed
 the workflow. Documentation was an alien concept that I was introduced to which seemed like the missing piece of the puzzle for me to
-further improve and reflect upon what I have learnt. It had been my life long dream to be developing games at some calibre and I finally
+further improve and reflect upon what I have learnt. It had been my lifelong dream to be developing games at some calibre and I finally
 took a step into this world learning animation and VR control mapping in Unity3D. I was exposed to the current state of AI and deep
 learning approaches. I got experience giving a live seminar over **Multi-Layer Perceptron** implementation with **numpy** in 
 **python3**.  I read about many ways of creating virtual environment and how reinforcement learning played a key role in the current
@@ -56,10 +56,10 @@ decided the following tasks for me to pursue during the summer 2019.
    This theoretical framework encapsulates the essence of intelligence and is a new approach to building truly intelligent machines.
    One of the key factors for the working of this algorithm is Sparse Distributed representation (SDR) which, is proposed and the way our brain 
    stores information. The other concept is spatial pooling, which can be simply put as neurons that fire together work together.
-   My goal is to understand the algorithm completely and implement it in a simple use-case, prediction of charecters in a sentence. 
+   My goal is to understand the algorithm completely and implement it in a simple use-case, prediction of characters in a sentence. 
   
   * This is a book being authored by Numenta, an AGI research company co-founded by Jeff hawkins [good read..] (https://numenta.com/resources/biological-and-machine-intelligence/).
-  * **On Intelligence** is a book authored by jeff hawkins that gives the idology behind the thinking behind the human brain
+  * **On Intelligence** is a book authored by jeff hawkins that gives the ideology behind the thinking behind the human brain
 
 </body>  
 [My review of On Intelligence](https://sananara-aryabhata.netlify.com/post/onint)
