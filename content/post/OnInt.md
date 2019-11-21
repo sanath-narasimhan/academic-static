@@ -36,7 +36,7 @@ auto-associatively by having them in an invariant form and in an hierarchy.
 
 **HTM** is a hypothesis that explains the workings of the **neocortex**, the largest part of the brain and how it can be implemented 
 to build a truly intelligent system. The book dwells upon the idea of intelligence of the human brain and the true working of the neurons.
-The key is to understand the working of neurons in the outter most layer of the brain, the **Neocortex**. There are about **six columned 
+The key is to understand the working of neurons in the outermost layer of the brain, the **Neocortex**. There are about **six columned 
 layers** in the human neocortex, highest in any mammal. The neurons are arranged in a set of column vertically and are connected 
 horizontally across a layer. This can mostly be accredicted to Vernon Benjamin Mountcastle was Professor Emeritus of Neuroscience at 
 Johns Hopkins University whose work reveled the true nature and working principles of a neuron in the paper Brain mechanisms for directed
@@ -47,16 +47,16 @@ attention.
 Another paper that really help build and prove the hypothesis of HTM is Memory, navigation and theta rhythm in the hippocampal-entorhinal
 system by György Buzsáki & Edvard I Moser, which talks about the discovery of grid cells, a special type of neurons present at every layer
 that helps locate the current world position of once self, think about navigating to a destination and form a basic model of the world.
-It is proposed here that memory developed due to the need of organism'smovement through its surroundings.
+It is proposed here that memory developed due to the need of organism's movement through its surroundings.
 The paper speaks about how there are two types of views that help form the whole world model. Allocentric view is perspective with 
-respect to a particular landmark in the surrounding. Egocentric view is perspective from one-self. By looking atthese discoveries Jeff
-came to conclusion that there has to be a simple algorithm thatis being implemented a the fundamental level in the neocortex to 
+respect to a particular landmark in the surrounding. Egocentric view is perspective from one-self. By looking at these discoveries Jeff
+came to conclusion that there has to be a simple algorithm that is being implemented at the fundamental level in the neocortex to 
 understand and form complex association of different sensory inputs into a virtual model and recognize already observed patterns and
 their combinations.
 
 ![On intelligence](/img/Capture11.PNG)
 
->Each system provides a unique referrence point from the grid cells, a combination of these referrence cells gives a fairly accurate representation of current location in the world.
+>Each system provides a unique reference point from the grid cells, a combination of these reference cells gives a fairly accurate representation of current location in the world.
 
 ![On intelligence](/img/Capture10.PNG)
 
