@@ -51,9 +51,9 @@ A neuron can be in **three states**, **Active**, **Predictive**, and **Passive**
   Consider an Encoder that is capable of taking letters as input and produces SDRs, we can have a 6 layered column representation of sentences, a Network of neurons. Take the sentence __"boys eat many cakes"__, the following figure shows how the sentence is initially percieved.  
 ![On intelligence](/img/Capture3.PNG)
   
-  >As the pattern is new, entire column of neurons become active.
+>As the pattern is new, entire column of neurons become active.
   
-  >Once the pattern is learnt, then each word in the sentence gets a unique representation based on the words that occur before and after it.
+>Once the pattern is learnt, then each word in the sentence gets a unique representation based on the words that occur before and after it.
   
   Similarly the sentence __"girls eat many pies"__, notice how the same words **"eat"**, and **"many"** have different representation based on the context they occur in.
   
