@@ -8,7 +8,7 @@ title = "Pill-em-All A Search engine for Medicine reviews"
 which of them are working according to your requirment.
 
 The Project is developed in python using flask for the webapp development. The system is built on dataset available 
-[here] https://www.kaggle.com/jessicali9530/kuc-hackathon-winter-2018/home which has **_patient reviews_** on specific drugs along
+[here]https://www.kaggle.com/jessicali9530/kuc-hackathon-winter-2018/home which has **_patient reviews_** on specific drugs along
 with related conditions and a **_10 star_** patient rating with **_useful count_** reflecting overall patient satisfaction.
 
 # Demo video:
