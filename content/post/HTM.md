@@ -2,7 +2,7 @@
 title = "The quest for Artificial General Intelligence."
 +++
 
-<body>
+<body align="justify">
 In the recent years the quest for Artificial Intelligence has become wide spread and everyone is getting on the band wangon. 
 The current state of AI, that is the deep Neural Networks, Reinforcement learning, and Machine Learning are pretty impressive in their performance. But the question is are they really intelligent? 
 We now have to define and think about two concepts, Learning and intelligence. In my opinion Learning is the process of understanding how to execute a particular task, and Intelligence is the ability to associate different tasks. 
