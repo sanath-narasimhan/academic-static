@@ -2,11 +2,13 @@
 title = "The quest for Artificial General Intelligence."
 +++
 
-<body align="justify">
+<body >
+   <p style="text-align:justify">
 In the recent years the quest for Artificial Intelligence has become wide spread and everyone is getting on the band wangon. 
 The current state of AI, that is the deep Neural Networks, Reinforcement learning, and Machine Learning are pretty impressive in their performance. But the question is are they really intelligent? 
 We now have to define and think about two concepts, Learning and intelligence. In my opinion Learning is the process of understanding how to execute a particular task, and Intelligence is the ability to associate different tasks. 
 Intelligence can also be learned. This is what **Jeff Hawkins** discuss about in his book **On Intelligence**. He argues that truly intelligent systems cannot be built without first understanding the working of a brain, specifically the Neocortex, outermost part of the brain.
+  </p>
 </body>
   
 ![On intelligence](/img/onin.jpg)
