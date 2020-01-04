@@ -5,7 +5,7 @@ title="A review : On Intelligence"
 ![On intelligence](/img/onin.jpg)
 
 On Intelligence is a book written by Jeff Hawkins that proposes a new approach to understanding intelligence and building intelligent 
-systems. Jeff Hawkins and his team of researchers have over the years accumilated several research papers in the field of Neuroscience 
+systems. Jeff Hawkins and his team of researchers have over the years accumulated several research papers in the field of Neuroscience 
 and uncovered a hypothesis about the working of the human brain. He touches on many subjects, such as the brains ability to recognize 
 patterns  and build invariant representations of the world from them, but the main idea of the book is that prediction is the key thing 
 that makes the brain intelligent.  
@@ -26,11 +26,11 @@ The following figure shows how the information of sight is processed in the huma
 brain through optic nerves. The information gets processed here along with the spatial information obtained from the entrohinal hippocapal and from the hypothalamus
 region. We can clearly see a hierarchical architecture. At each of the sub-region V1,V2,V4 and IT different levels of abstraction of the 
 input happens to understand the observed spatial-temporal pattern. This helps store sequence of recurring patterns and recall them 
-auto-associatively by having them in an invariant form and in an hierarchy.
+auto-associatively by having them in an invariant form and in a hierarchy.
 
 ![On intelligence](/img/vc.PNG)
 
->Baddeley's Model of Working Memory is a model of human memory proposed by Alan Baddeley and Graham Hitch in 1974, in an attempt to present a more accurate model of primary memory. Working memory splits primary memory into multiple components, rather than considering it to be a single, unified construct. This is the main model that first intruduced the idea of hierarchy in the memory formation and recall.
+>Baddeley's Model of Working Memory is a model of human memory proposed by Alan Baddeley and Graham Hitch in 1974, in an attempt to present a more accurate model of primary memory. Working memory splits primary memory into multiple components, rather than considering it to be a single, unified construct. This is the main model that first introduced the idea of hierarchy in the memory formation and recall.
 
 ![On intelligence](/img/bm.PNG)
 
@@ -38,8 +38,8 @@ auto-associatively by having them in an invariant form and in an hierarchy.
 to build a truly intelligent system. The book dwells upon the idea of intelligence of the human brain and the true working of the neurons.
 The key is to understand the working of neurons in the outermost layer of the brain, the **Neocortex**. There are about **six columned 
 layers** in the human neocortex, highest in any mammal. The neurons are arranged in a set of column vertically and are connected 
-horizontally across a layer. This can mostly be accredicted to Vernon Benjamin Mountcastle was Professor Emeritus of Neuroscience at 
-Johns Hopkins University whose work reveled the true nature and working principles of a neuron in the paper Brain mechanisms for directed
+horizontally across a layer. This can mostly be accredited to Vernon Benjamin Mountcastle was Professor Emeritus of Neuroscience at 
+Johns Hopkins University whose work revealed the true nature and working principles of a neuron in the paper Brain mechanisms for directed
 attention.
 
 ![On intelligence](/img/br.PNG)
@@ -64,7 +64,7 @@ their combinations.
 By truly understanding the working of this Cortical Learning algorithm we can implement it to have a brain like learning, remembering 
 and predicting capabilities on a system.
 
-Further more he discusses many more interesting examples that give an accurate insight into the brain's working and helps define Intelligence.
+Further, he discusses many more interesting examples that give an accurate insight into the brain's working and helps define Intelligence.
 Now that we have an overview of the book we can move on to actually breaking down the Algorithm 
 
 [Here](https://sananara-aryabhata.netlify.com/post/htm)
