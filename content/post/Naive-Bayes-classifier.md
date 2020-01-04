@@ -16,7 +16,7 @@ Naive Bayes is a family of algorithms based on applying Bayes theorem with an as
 in order to predict the category of a given sample. They are probabilistic classifiers, therefore will calculate the probability of each 
 class using Bayes theorem, and the classes with the highest probability will be output.
 
-In our dataset the **condition** column that represents the medical condition a review is related, to is the class which we will try to predict.
+In our dataset the **condition** column that represents the medical condition a review is related to, is the class which we will try to predict.
 
 We have already preprocessed the reviews in Part 1 while building our search engine.
 In order to make the iterative process of tuning the algorithm we split the entire dataset into train, validation and test. Train consists 50% of the dataset, validation and test each have 25% of the remaining dataset.
@@ -55,9 +55,9 @@ naive_class_dict = { class : [P(class), count_total_words, count_unique_words,
                           }
 </pre> 
 
-<h4>Calculating probablity of a given review belonging to a class:</h4>
+<h4>Calculating probability of a given review belonging to a class:</h4>
 
-Consider the below example, we will see how to use the priop probabilities to calculate the probablity of this review belonging to 
+Consider the below example, we will see how to use the prior probabilities to calculate the probability of this review belonging to 
 class **Urinary Tract Infection**.
 
 <pre>
@@ -73,20 +73,20 @@ naive_class_dict['Urinary Tract Infection'][3]['bad'] = [315, 249]
 naive_class_dict['Urinary Tract Infection'][3]['reaction'] = [74, 66]
 naive_class_dictnaivecps['Urinary Tract Infection'][3]['medication'] = [265, 198]
 
-* so, the probablity of a given query belonging to a class is
+* so, the probability of a given query belonging to a class is
 
 P(class | w1,w2,w3) = log(P(w1 | class) * P(w1 | class) * P(w1 | class) * P(class))
 
-* probablity of a class is
+* probability of a class is
 
 P(class) = number of reviews in the class / total number of reviews
 
-* probablity of a word w1 occuring in a class
+* probability of a word w1 occurring in a class
 
 * p(w1 | class) = (number of times w1 occurs in class + alpha) / (total number of words in class + total number of words in the vocabulary)
 
 * Here aplha is the smoothing factor which helps overcome problems of when a word in the query does not occur within a class.
-This hyperparameter comes handy when trying to optimize the classification, that is increase the accuracy.
+This hyperparameter comes handy when trying to optimize the classification to increase the accuracy.
 
 <pre>
 P(Urinary Tract Infection) = 0.008207509918583007
