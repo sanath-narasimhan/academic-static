@@ -31,11 +31,11 @@ Follow [this](https://sananara-aryabhata.netlify.com/post/first-search-engine/) 
 # Classifier
 * A multinominal Naive Bayes Classifier that is implemented in python gives the probability of a given review belonging to the top 10 **condition** class in the dataset.
 
-* This uses prior probablities of every **condition** and the probability of the **_key words_** in a review belonging to each of these **condition** class to compute the score.
+* This uses prior probabilities of every **condition** and the probability of the **_key words_** in a review belonging to each of these **condition** class to compute the score.
 
 * A simple yet effective algorithm for classification of text.
 
-Follow the blog [here](https://sananara-aryabhata.netlify.com/post/naive-bayes-classifier/) to understand and implement the Naive bayes classifier.
+Follow the blog [here](https://sananara-aryabhata.netlify.com/post/naive-bayes-classifier/) to understand and implement the Naive Bayes' classifier.
 
 # Recommender system
 * A content-based recommender that shows **_reviews_** of **medications** that are similar to the selected review which are associated with the same **condition**.
