@@ -6,7 +6,7 @@ title="Content Based Recommender System"
 
 <h1> **Content Based Recommender System** </h1>
 <body>
-Recommendor systems are one of the most facinating algorithms that have been in the lime-light in the recent years. There are common algorithms that are used for making recommendations.
+Recommender systems are one of the most fascinating algorithms that have been in the lime-light in the recent years. There are common algorithms that are used for making recommendations.
 Collaborative filtering is one of the most precise recommendation algorithm used by Netflix that is really popular.
 
 Unfortunately collaborative filtering requires a lot of data related about user preferences which is unavailable in our dataset.
@@ -15,13 +15,13 @@ Content-Based recommendation is a better fit for our dataset. In this technique 
 
 <h2> Implementation of the system </h2>
 
-1. In the dataset the review fiels acts like the content description of the items, that is a specific medication related to a certain condition(disease)
+1. In the dataset the review fiedls acts like the content description of the items, that is a specific medication related to a certain condition(disease)
 
-2. Everytime a user performes a search, they are provided with a set of results given by our Inverted index algorithm, which calculates the cosine similarity between our search query and reviews in our dataset.
+2. Every time a user performs a search, they are provided with a set of results given by our Inverted index algorithm, which calculates the cosine similarity between our search query and reviews in our dataset.
 
-3. It sounds like most of our work is done as the same algorithm can be used to find the similarity beetween the current review selected and the reviews that can be recommended.
+3. It sounds like most of our work is done as the same algorithm can be used to find the similarity between the current review selected and the reviews that can be recommended.
 
-4. When an item is selected for viewing we simply take the review it is assosiated with and apply the similarity between the selected review and our dataset using the inverted index vocabulary already generated.
+4. When an item is selected for viewing we simply take the review it is associated with and apply the similarity between the selected review and our dataset using the inverted index vocabulary already generated.
 
 5. To keep the recommendations relevant to the selected item, we filter out the result from the reviews that are not in the same class as the selected item. This is to prevent irrelevant recommendations.
 
@@ -43,11 +43,11 @@ Content-Based recommendation is a better fit for our dataset. In this technique 
 
 <h4> Contributions </h4>
 
-1. Implemented psudo Content-Based recommendation system with the already created Inverted Index and similarity matrix.
+1. Implemented pseudo Content-Based recommendation system with the already created Inverted Index and similarity matrix.
 
 2. Using top 50 results from the similarity algorithm provides better recommendations.
 
-<h5> Referrences: </h5>
+<h5> References: </h5>
 
 * (https://medium.com/@tomar.ankur287/content-based-recommender-system-in-python-2e8e94b16b9e)
 
