@@ -43,7 +43,7 @@ decided the following tasks for me to pursue during the summer 2019.
    both face and body.
    Faceware Live is the face motion capture software that has a plug-in for unity3D. The challenge would be in creating a seamless virtual human
    behaviour within the game.
-   Marching cubes algorithm is a handy tool for creating various terraines. This can help build a robust environment that is auto-generative.
+   Marching cubes algorithm is a handy tool for creating various terrains. This can help build a robust environment that is auto-generative.
    Generative adversarial Networks come handy when you have to replicate a real-world 3D object in the game.
    The idea is to make 3D simulations that have parameters that can be fed into an AI algorithm and be controlled to play the game. 
    Additional feature would be giving access to us to play and see what the AI would see, a first or third person view using a Virtual Reality headset.
@@ -52,9 +52,7 @@ decided the following tasks for me to pursue during the summer 2019.
 <h3> Temporal Memory Algorithm</h3>
 
 <body>
-   Hierarchical Temporal Memory is a hypothesis by Jeff Hawkins which is based on the working of the neocortex, the outermost part of the human brain
-   This theoretical framework encapsulates the essence of intelligence and is a new approach to building truly intelligent machines.
-   One of the key factors for the working of this algorithm is Sparse Distributed representation (SDR) which, is proposed and the way our brain 
+   Hierarchical Temporal Memory is a hypothesis by Jeff Hawkins which is based on the working of the neocortex, the outermost part of the human brain. This theoretical framework encapsulates the essence of intelligence and is a new approach to building truly intelligent machines. One of the key factors for the working of this algorithm is Sparse Distributed representation (SDR) which, is proposed and the way our brain 
    stores information. The other concept is spatial pooling, which can be simply put as neurons that fire together work together.
    My goal is to understand the algorithm completely and implement it in a simple use-case, prediction of characters in a sentence. 
   
