@@ -3,18 +3,18 @@ title = "Search Engine with Python"
 +++
 <h1>**Search Engine with Python**</h1>
 <body>A good search engine need not be sophisticated, it is better to start simple to understand the workings of a good search engine.
-Of-course the first thing we need is a good dataset for raw textual data for oyr mining purpose. I have used the 
+Of-course the first thing we need is a good dataset for raw textual data for our mining purpose. I have used the 
 kaggle [data-set](https://www.kaggle.com/jessicali9530/kuc-hackathon-winter-2018/home) which consists of patient reviews on medications.
 This is in  _**csv**_  format so we use **pandas** dataframe to load it into python.
 
 </body>
 <h2>**Data Preprocessing:**</h2>
-To make things easy we are going to match search with only the reviews available.The first challenge we face is data preprocessing.
-In our raw data set (test and train data combine) there are about **215,000** records. Upon inspection there are unsuable rows with 
+To make things easy we are going to match search with only the reviews available. The first challenge we face is data preprocessing.
+In our raw data set (test and train data combine) there are about **215,000** records. Upon inspection there are unusable rows with 
 incomplete "condition" and "Drug name" columns. After dropping those we are left with **213,892** rows.
 
 The reviews contain some html codes that are left as is and need to be converted to utf-8 encoded string with **htlm** library's 
-unescape function. Once this is done now its time for text mining, we convert each review string into a list of words with 
+unescape function. Once this is done now it's time for text mining, we convert each review string into a list of words with 
 the _**split**_ function for a string. We ensure that all words are in **lower case** and must be of minimum length 3. 
 
 The **nltk** library is one of the best and easiest for natural language processing with python which includes **_stopwords.stop("english")_** which can be downloaded and the function is available in the **corpus** function on the module. We use this to remove stop words from our  reviews. The library also consists of **_WordNetLemmatizer()_** using which we create a lemmatizer object and use the **__lemmatize()__** function on each word to find it's root word. This ends the preprocessing step.
@@ -109,22 +109,24 @@ $$ \\overline{sim(q,r)} = \\sum_{t\\in q} w\_{t,q} \\times \\overline{w\_{t,r}}.
 
 <h3>Inverted Index vs Term Document Matrix</h3>
 The term document matrix was generated with gensim library
-* The retrieve time for a search result was abot 10 seconds.
-The custom Inverted Index yields results drastically faster
-* The query retrieve time was about 0.05 seconds
+
+* The retrieve time for a search result was about 10 seconds.
+The custom Inverted Index yields results drastically faster.
+
+* The query retrieve time was about 0.05 seconds.
 
 <h4> Contributions: </h4>
 
 1. Implemented my own Inverted index from scratch using numpy and pandas.
 
-2. Created A way to quickly retrieve the posting lists for similarity calculation.
+2. Created a way to quickly retrieve the posting lists for similarity calculation.
 
 3. Improving efficiency by dropping words that appear too many times from the vocabulary.
 
 4. Used **nltk's** **_WordNetLemmatizer_** for feature selection.
 
 
-<h5> Referrences</h5>
+<h5> References</h5>
 
 *  (https://nlp.stanford.edu/IR-book/html/htmledition/a-first-take-at-building-an-inverted-index-1.html)
 
