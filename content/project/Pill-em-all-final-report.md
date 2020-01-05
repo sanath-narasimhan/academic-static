@@ -19,7 +19,7 @@ with related conditions and a **_10 star_** patient rating with **_useful count_
 ### Data Preprocessing
 The dataset, like any other, has lot of missing values and is dropped from the dataset. 
 Each review is converted into a **bag of words** representation. These are used to build the final system.
-Some techniques used are **stop-word removal** and **lemmatizaion** for removing redundant words.
+Some techniques used are **stop-word removal** and **lemmatization** for removing redundant words.
 
 # Search Engine
 * Inverted Index method is used to build a vocabulary that stores the weights of every word in the entire dataset of reviews. 
