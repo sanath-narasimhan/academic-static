@@ -15,7 +15,7 @@ Content-Based recommendation is a better fit for our dataset. In this technique 
 
 <h2> Implementation of the system </h2>
 
-1. In the dataset the review fiedls acts like the content description of the items, that is a specific medication related to a certain condition(disease)
+1. In the dataset the review fields acts like the content description of the items, that is a specific medication related to a certain condition(disease)
 
 2. Every time a user performs a search, they are provided with a set of results given by our Inverted index algorithm, which calculates the cosine similarity between our search query and reviews in our dataset.
 
@@ -28,7 +28,7 @@ Content-Based recommendation is a better fit for our dataset. In this technique 
 
 **Algorithm**
 <pre>
-1. Retrive the review ID of the selected item.
+1. Retrieve the review ID of the selected item.
 
 2. Perform search to find reviews that are similar to the selected one with k=50.
 
