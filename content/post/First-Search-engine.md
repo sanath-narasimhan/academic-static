@@ -35,7 +35,7 @@ The third element in the _list_ is the posting list for every word.
    .
   }
   </pre>
-  Notice we use a position list to store every index of every occurence of a word in a document.
+  Notice we use a position list to store every index of every occurrence of a word in a document.
   We get **32742** unique words as features for our dataset.
   <pre>
   
@@ -105,7 +105,7 @@ $$ \\overline{sim(q,r)} = \\sum_{t\\in q} w\_{t,q} \\times \\overline{w\_{t,r}}.
 <h2> Challenges faced </h2>
 
 1.  Implementing the count of words in each word. Used the concept of positional indexing.
-2.  Getting the posting list for each word. It was computationally expensive to sort every posting list and keep them stored prior to the query similarity calculation. Sort only the posting list being retrived while calculating the similarity.
+2.  Getting the posting list for each word. It was computationally expensive to sort every posting list and keep them stored prior to the query similarity calculation. Sort only the posting list being retrieved while calculating the similarity.
 
 <h3>Inverted Index vs Term Document Matrix</h3>
 The term document matrix was generated with gensim library
