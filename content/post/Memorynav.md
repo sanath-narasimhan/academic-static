@@ -3,7 +3,7 @@ title="Explicit Memory and Navigation"
 +++
 
 This is a brief overview of the paper **Memory, navigation and theta rhythm in the Hippocampal-entorihnal system**  
-linked ![here](https://www.researchgate.net/publication/235376121_Memory_navigation_and_theta_rhythm_in_the_hippocampal-entorhinal_system)
+linked [here](https://www.researchgate.net/publication/235376121_Memory_navigation_and_theta_rhythm_in_the_hippocampal-entorhinal_system)
 
 Memory is the core mechanism of any living organisms. The current understanding divides memory into long-term and short-term (working). 
 Long-term memory can be further divide into Explicit (Declarative) memory like facts about objects and places, semantics for language and
@@ -29,7 +29,7 @@ the allocentric way. But if the path is narrow and has no obstacles in the way, 
 The two main regions of the brain that were discovered to be responsible for declarative memory are the hippocampus and the entorhinal 
 cortex. 
 
-![2](/img/mn1.png)
+![2](/img/mn1.jpg)
 ![3](/img/mn2.png)
 
 The entorhinal cortex consists of grid cells, in geometric formations that are packed at different spacing along the vertical axis for 
